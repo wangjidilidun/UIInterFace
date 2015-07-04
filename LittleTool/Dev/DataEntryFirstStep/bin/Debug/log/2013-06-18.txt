@@ -1,0 +1,4 @@
+2013-06-18 14:44:24.0060|INFO|DataEntryFirstStep.DataEntryForm|*****************************************************************
+2013-06-18 14:44:24.0250|INFO|DataEntryFirstStep.DataEntryForm|打开一个新batch
+2013-06-18 14:44:24.0250|INFO|DataEntryFirstStep.DataEntryForm|*****************************************************************
+2013-06-18 14:44:24.2340|INFO|DataEntryFirstStep.DataEntryForm|总页数:	2

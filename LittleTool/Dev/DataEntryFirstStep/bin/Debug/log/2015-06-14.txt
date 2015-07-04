@@ -1,0 +1,665 @@
+2015-06-14 00:02:17.4095|INFO|DataEntryFirstStep.DataEntryForm|*****************************************************************
+2015-06-14 00:02:17.4185|INFO|DataEntryFirstStep.DataEntryForm|继续上次batch
+2015-06-14 00:02:17.4185|INFO|DataEntryFirstStep.DataEntryForm|*****************************************************************
+2015-06-14 00:02:18.2671|INFO|DataEntryFirstStep.DataEntryForm|*****************************************************************
+2015-06-14 00:02:18.2671|INFO|DataEntryFirstStep.DataEntryForm|打开一个新batch
+2015-06-14 00:02:18.2671|INFO|DataEntryFirstStep.DataEntryForm|*****************************************************************
+2015-06-14 00:02:18.2671|INFO|DataEntryFirstStep.DataEntryForm|总页数:	2
+2015-06-14 00:03:24.1991|INFO|DataEntryFirstStep.DataEntryForm|*****************************************************************
+2015-06-14 00:03:24.1991|INFO|DataEntryFirstStep.DataEntryForm|继续上次batch
+2015-06-14 00:03:24.1991|INFO|DataEntryFirstStep.DataEntryForm|*****************************************************************
+2015-06-14 00:03:25.1563|INFO|DataEntryFirstStep.DataEntryForm|*****************************************************************
+2015-06-14 00:03:25.1563|INFO|DataEntryFirstStep.DataEntryForm|打开一个新batch
+2015-06-14 00:03:25.1563|INFO|DataEntryFirstStep.DataEntryForm|*****************************************************************
+2015-06-14 00:03:25.1563|INFO|DataEntryFirstStep.DataEntryForm|总页数:	2
+2015-06-14 00:04:20.0258|INFO|DataEntryFirstStep.DataEntryForm|*****************************************************************
+2015-06-14 00:04:20.0318|INFO|DataEntryFirstStep.DataEntryForm|继续上次batch
+2015-06-14 00:04:20.0318|INFO|DataEntryFirstStep.DataEntryForm|*****************************************************************
+2015-06-14 00:04:21.1822|INFO|DataEntryFirstStep.DataEntryForm|*****************************************************************
+2015-06-14 00:04:21.1822|INFO|DataEntryFirstStep.DataEntryForm|打开一个新batch
+2015-06-14 00:04:21.1842|INFO|DataEntryFirstStep.DataEntryForm|*****************************************************************
+2015-06-14 00:04:21.1842|INFO|DataEntryFirstStep.DataEntryForm|总页数:	2
+2015-06-14 00:07:46.5115|INFO|DataEntryFirstStep.DataEntryForm|*****************************************************************
+2015-06-14 00:07:46.5185|INFO|DataEntryFirstStep.DataEntryForm|继续上次batch
+2015-06-14 00:07:46.5185|INFO|DataEntryFirstStep.DataEntryForm|*****************************************************************
+2015-06-14 00:07:47.3420|INFO|DataEntryFirstStep.DataEntryForm|*****************************************************************
+2015-06-14 00:07:47.3420|INFO|DataEntryFirstStep.DataEntryForm|打开一个新batch
+2015-06-14 00:07:47.3420|INFO|DataEntryFirstStep.DataEntryForm|*****************************************************************
+2015-06-14 00:07:47.3420|INFO|DataEntryFirstStep.DataEntryForm|总页数:	2
+2015-06-14 00:08:52.9336|INFO|DataEntryFirstStep.DataEntryForm|*****************************************************************
+2015-06-14 00:08:52.9406|INFO|DataEntryFirstStep.DataEntryForm|打开一个新batch
+2015-06-14 00:08:52.9406|INFO|DataEntryFirstStep.DataEntryForm|*****************************************************************
+2015-06-14 00:08:52.9406|INFO|DataEntryFirstStep.DataEntryForm|总页数:	0
+2015-06-14 00:09:00.5580|INFO|DataEntryFirstStep.DataEntryForm|*****************************************************************
+2015-06-14 00:09:00.5580|INFO|DataEntryFirstStep.DataEntryForm|继续上次batch
+2015-06-14 00:09:00.5590|INFO|DataEntryFirstStep.DataEntryForm|*****************************************************************
+2015-06-14 00:09:01.4600|INFO|DataEntryFirstStep.DataEntryForm|*****************************************************************
+2015-06-14 00:09:01.4600|INFO|DataEntryFirstStep.DataEntryForm|打开一个新batch
+2015-06-14 00:09:01.4600|INFO|DataEntryFirstStep.DataEntryForm|*****************************************************************
+2015-06-14 00:09:01.4600|INFO|DataEntryFirstStep.DataEntryForm|总页数:	2
+2015-06-14 00:10:14.5267|INFO|DataEntryFirstStep.DataEntryForm|*****************************************************************
+2015-06-14 00:10:14.5337|INFO|DataEntryFirstStep.DataEntryForm|继续上次batch
+2015-06-14 00:10:14.5337|INFO|DataEntryFirstStep.DataEntryForm|*****************************************************************
+2015-06-14 00:10:15.6643|INFO|DataEntryFirstStep.DataEntryForm|*****************************************************************
+2015-06-14 00:10:15.6643|INFO|DataEntryFirstStep.DataEntryForm|打开一个新batch
+2015-06-14 00:10:15.6643|INFO|DataEntryFirstStep.DataEntryForm|*****************************************************************
+2015-06-14 00:10:15.6799|INFO|DataEntryFirstStep.DataEntryForm|总页数:	2
+2015-06-14 00:14:13.5598|INFO|DataEntryFirstStep.DataEntryForm|*****************************************************************
+2015-06-14 00:14:13.5598|INFO|DataEntryFirstStep.DataEntryForm|继续上次batch
+2015-06-14 00:14:13.5598|INFO|DataEntryFirstStep.DataEntryForm|*****************************************************************
+2015-06-14 00:14:14.3694|INFO|DataEntryFirstStep.DataEntryForm|*****************************************************************
+2015-06-14 00:14:14.3694|INFO|DataEntryFirstStep.DataEntryForm|打开一个新batch
+2015-06-14 00:14:14.3694|INFO|DataEntryFirstStep.DataEntryForm|*****************************************************************
+2015-06-14 00:14:14.3734|INFO|DataEntryFirstStep.DataEntryForm|总页数:	2
+2015-06-14 00:15:42.7275|INFO|DataEntryFirstStep.DataEntryForm|*****************************************************************
+2015-06-14 00:15:42.7345|INFO|DataEntryFirstStep.DataEntryForm|继续上次batch
+2015-06-14 00:15:42.7345|INFO|DataEntryFirstStep.DataEntryForm|*****************************************************************
+2015-06-14 00:15:43.5240|INFO|DataEntryFirstStep.DataEntryForm|*****************************************************************
+2015-06-14 00:15:43.5240|INFO|DataEntryFirstStep.DataEntryForm|打开一个新batch
+2015-06-14 00:15:43.5240|INFO|DataEntryFirstStep.DataEntryForm|*****************************************************************
+2015-06-14 00:15:43.5281|INFO|DataEntryFirstStep.DataEntryForm|总页数:	2
+2015-06-14 00:21:38.3736|INFO|DataEntryFirstStep.DataEntryForm|*****************************************************************
+2015-06-14 00:21:38.3736|INFO|DataEntryFirstStep.DataEntryForm|继续上次batch
+2015-06-14 00:21:38.3736|INFO|DataEntryFirstStep.DataEntryForm|*****************************************************************
+2015-06-14 00:21:39.3520|INFO|DataEntryFirstStep.DataEntryForm|*****************************************************************
+2015-06-14 00:21:39.3520|INFO|DataEntryFirstStep.DataEntryForm|打开一个新batch
+2015-06-14 00:21:39.3520|INFO|DataEntryFirstStep.DataEntryForm|*****************************************************************
+2015-06-14 00:21:39.3561|INFO|DataEntryFirstStep.DataEntryForm|总页数:	2
+2015-06-14 00:21:56.1020|INFO|DataEntryFirstStep.DataEntryForm|*****************************************************************
+2015-06-14 00:21:56.1080|INFO|DataEntryFirstStep.DataEntryForm|继续上次batch
+2015-06-14 00:21:56.1080|INFO|DataEntryFirstStep.DataEntryForm|*****************************************************************
+2015-06-14 00:21:56.9550|INFO|DataEntryFirstStep.DataEntryForm|*****************************************************************
+2015-06-14 00:21:56.9550|INFO|DataEntryFirstStep.DataEntryForm|打开一个新batch
+2015-06-14 00:21:56.9550|INFO|DataEntryFirstStep.DataEntryForm|*****************************************************************
+2015-06-14 00:21:56.9550|INFO|DataEntryFirstStep.DataEntryForm|总页数:	2
+2015-06-14 00:26:08.8224|INFO|DataEntryFirstStep.DataEntryForm|*****************************************************************
+2015-06-14 00:26:08.8284|INFO|DataEntryFirstStep.DataEntryForm|继续上次batch
+2015-06-14 00:26:08.8284|INFO|DataEntryFirstStep.DataEntryForm|*****************************************************************
+2015-06-14 00:26:09.7830|INFO|DataEntryFirstStep.DataEntryForm|*****************************************************************
+2015-06-14 00:26:09.7830|INFO|DataEntryFirstStep.DataEntryForm|打开一个新batch
+2015-06-14 00:26:09.7830|INFO|DataEntryFirstStep.DataEntryForm|*****************************************************************
+2015-06-14 00:26:09.7830|INFO|DataEntryFirstStep.DataEntryForm|总页数:	2
+2015-06-14 00:27:13.7101|INFO|DataEntryFirstStep.DataEntryForm|*****************************************************************
+2015-06-14 00:27:13.7161|INFO|DataEntryFirstStep.DataEntryForm|继续上次batch
+2015-06-14 00:27:13.7161|INFO|DataEntryFirstStep.DataEntryForm|*****************************************************************
+2015-06-14 00:27:14.5813|INFO|DataEntryFirstStep.DataEntryForm|*****************************************************************
+2015-06-14 00:27:14.5813|INFO|DataEntryFirstStep.DataEntryForm|打开一个新batch
+2015-06-14 00:27:14.5813|INFO|DataEntryFirstStep.DataEntryForm|*****************************************************************
+2015-06-14 00:27:14.5813|INFO|DataEntryFirstStep.DataEntryForm|总页数:	2
+2015-06-14 00:29:03.5885|INFO|DataEntryFirstStep.DataEntryForm|*****************************************************************
+2015-06-14 00:29:03.5956|INFO|DataEntryFirstStep.DataEntryForm|继续上次batch
+2015-06-14 00:29:03.5956|INFO|DataEntryFirstStep.DataEntryForm|*****************************************************************
+2015-06-14 00:29:04.5714|INFO|DataEntryFirstStep.DataEntryForm|*****************************************************************
+2015-06-14 00:29:04.5714|INFO|DataEntryFirstStep.DataEntryForm|打开一个新batch
+2015-06-14 00:29:04.5714|INFO|DataEntryFirstStep.DataEntryForm|*****************************************************************
+2015-06-14 00:29:04.5754|INFO|DataEntryFirstStep.DataEntryForm|总页数:	2
+2015-06-14 00:30:23.4931|INFO|DataEntryFirstStep.DataEntryForm|*****************************************************************
+2015-06-14 00:30:23.5002|INFO|DataEntryFirstStep.DataEntryForm|继续上次batch
+2015-06-14 00:30:23.5002|INFO|DataEntryFirstStep.DataEntryForm|*****************************************************************
+2015-06-14 00:30:25.3546|INFO|DataEntryFirstStep.DataEntryForm|*****************************************************************
+2015-06-14 00:30:25.3546|INFO|DataEntryFirstStep.DataEntryForm|打开一个新batch
+2015-06-14 00:30:25.3546|INFO|DataEntryFirstStep.DataEntryForm|*****************************************************************
+2015-06-14 00:30:25.3586|INFO|DataEntryFirstStep.DataEntryForm|总页数:	2
+2015-06-14 00:30:52.6765|INFO|DataEntryFirstStep.DataEntryForm|*****************************************************************
+2015-06-14 00:30:52.6865|INFO|DataEntryFirstStep.DataEntryForm|继续上次batch
+2015-06-14 00:30:52.6865|INFO|DataEntryFirstStep.DataEntryForm|*****************************************************************
+2015-06-14 00:30:53.6238|INFO|DataEntryFirstStep.DataEntryForm|*****************************************************************
+2015-06-14 00:30:53.6238|INFO|DataEntryFirstStep.DataEntryForm|打开一个新batch
+2015-06-14 00:30:53.6238|INFO|DataEntryFirstStep.DataEntryForm|*****************************************************************
+2015-06-14 00:30:53.6238|INFO|DataEntryFirstStep.DataEntryForm|总页数:	2
+2015-06-14 00:31:34.0514|INFO|DataEntryFirstStep.DataEntryForm|*****************************************************************
+2015-06-14 00:31:34.0604|INFO|DataEntryFirstStep.DataEntryForm|继续上次batch
+2015-06-14 00:31:34.0604|INFO|DataEntryFirstStep.DataEntryForm|*****************************************************************
+2015-06-14 00:31:35.0721|INFO|DataEntryFirstStep.DataEntryForm|*****************************************************************
+2015-06-14 00:31:35.0721|INFO|DataEntryFirstStep.DataEntryForm|打开一个新batch
+2015-06-14 00:31:35.0721|INFO|DataEntryFirstStep.DataEntryForm|*****************************************************************
+2015-06-14 00:31:35.0761|INFO|DataEntryFirstStep.DataEntryForm|总页数:	2
+2015-06-14 00:32:28.3793|INFO|DataEntryFirstStep.DataEntryForm|*****************************************************************
+2015-06-14 00:32:28.3873|INFO|DataEntryFirstStep.DataEntryForm|继续上次batch
+2015-06-14 00:32:28.3873|INFO|DataEntryFirstStep.DataEntryForm|*****************************************************************
+2015-06-14 00:32:29.1358|INFO|DataEntryFirstStep.DataEntryForm|*****************************************************************
+2015-06-14 00:32:29.1358|INFO|DataEntryFirstStep.DataEntryForm|打开一个新batch
+2015-06-14 00:32:29.1378|INFO|DataEntryFirstStep.DataEntryForm|*****************************************************************
+2015-06-14 00:32:29.1378|INFO|DataEntryFirstStep.DataEntryForm|总页数:	2
+2015-06-14 00:36:10.0518|INFO|DataEntryFirstStep.DataEntryForm|*****************************************************************
+2015-06-14 00:36:10.0618|INFO|DataEntryFirstStep.DataEntryForm|继续上次batch
+2015-06-14 00:36:10.0618|INFO|DataEntryFirstStep.DataEntryForm|*****************************************************************
+2015-06-14 00:36:10.9666|INFO|DataEntryFirstStep.DataEntryForm|*****************************************************************
+2015-06-14 00:36:10.9666|INFO|DataEntryFirstStep.DataEntryForm|打开一个新batch
+2015-06-14 00:36:10.9666|INFO|DataEntryFirstStep.DataEntryForm|*****************************************************************
+2015-06-14 00:36:10.9666|INFO|DataEntryFirstStep.DataEntryForm|总页数:	2
+2015-06-14 00:39:43.2359|INFO|DataEntryFirstStep.DataEntryForm|*****************************************************************
+2015-06-14 00:39:43.2359|INFO|DataEntryFirstStep.DataEntryForm|继续上次batch
+2015-06-14 00:39:43.2359|INFO|DataEntryFirstStep.DataEntryForm|*****************************************************************
+2015-06-14 00:39:44.2777|INFO|DataEntryFirstStep.DataEntryForm|*****************************************************************
+2015-06-14 00:39:44.2777|INFO|DataEntryFirstStep.DataEntryForm|打开一个新batch
+2015-06-14 00:39:44.2787|INFO|DataEntryFirstStep.DataEntryForm|*****************************************************************
+2015-06-14 00:39:44.2787|INFO|DataEntryFirstStep.DataEntryForm|总页数:	2
+2015-06-14 00:40:42.4176|INFO|DataEntryFirstStep.DataEntryForm|*****************************************************************
+2015-06-14 00:40:42.4246|INFO|DataEntryFirstStep.DataEntryForm|继续上次batch
+2015-06-14 00:40:42.4246|INFO|DataEntryFirstStep.DataEntryForm|*****************************************************************
+2015-06-14 00:40:43.3530|INFO|DataEntryFirstStep.DataEntryForm|*****************************************************************
+2015-06-14 00:40:43.3530|INFO|DataEntryFirstStep.DataEntryForm|打开一个新batch
+2015-06-14 00:40:43.3560|INFO|DataEntryFirstStep.DataEntryForm|*****************************************************************
+2015-06-14 00:40:43.3560|INFO|DataEntryFirstStep.DataEntryForm|总页数:	2
+2015-06-14 00:43:20.2507|INFO|DataEntryFirstStep.DataEntryForm|*****************************************************************
+2015-06-14 00:43:20.2507|INFO|DataEntryFirstStep.DataEntryForm|打开一个新batch
+2015-06-14 00:43:20.2507|INFO|DataEntryFirstStep.DataEntryForm|*****************************************************************
+2015-06-14 00:43:20.3668|INFO|DataEntryFirstStep.DataEntryForm|总页数:	2
+2015-06-14 00:44:42.4249|INFO|DataEntryFirstStep.DataEntryForm|*****************************************************************
+2015-06-14 00:44:42.4349|INFO|DataEntryFirstStep.DataEntryForm|继续上次batch
+2015-06-14 00:44:42.4349|INFO|DataEntryFirstStep.DataEntryForm|*****************************************************************
+2015-06-14 00:44:43.7767|INFO|DataEntryFirstStep.DataEntryForm|*****************************************************************
+2015-06-14 00:44:43.7767|INFO|DataEntryFirstStep.DataEntryForm|打开一个新batch
+2015-06-14 00:44:43.7787|INFO|DataEntryFirstStep.DataEntryForm|*****************************************************************
+2015-06-14 00:44:43.7787|INFO|DataEntryFirstStep.DataEntryForm|总页数:	2
+2015-06-14 00:53:04.6159|INFO|DataEntryFirstStep.DataEntryForm|*****************************************************************
+2015-06-14 00:53:04.6159|INFO|DataEntryFirstStep.DataEntryForm|继续上次batch
+2015-06-14 00:53:04.6159|INFO|DataEntryFirstStep.DataEntryForm|*****************************************************************
+2015-06-14 00:53:05.4682|INFO|DataEntryFirstStep.DataEntryForm|*****************************************************************
+2015-06-14 00:53:05.4682|INFO|DataEntryFirstStep.DataEntryForm|打开一个新batch
+2015-06-14 00:53:05.4682|INFO|DataEntryFirstStep.DataEntryForm|*****************************************************************
+2015-06-14 00:53:05.4682|INFO|DataEntryFirstStep.DataEntryForm|总页数:	2
+2015-06-14 08:24:39.8918|INFO|DataEntryFirstStep.DataEntryForm|*****************************************************************
+2015-06-14 08:24:39.9074|INFO|DataEntryFirstStep.DataEntryForm|继续上次batch
+2015-06-14 08:24:39.9074|INFO|DataEntryFirstStep.DataEntryForm|*****************************************************************
+2015-06-14 08:24:40.8763|INFO|DataEntryFirstStep.DataEntryForm|*****************************************************************
+2015-06-14 08:24:40.8763|INFO|DataEntryFirstStep.DataEntryForm|打开一个新batch
+2015-06-14 08:24:40.8763|INFO|DataEntryFirstStep.DataEntryForm|*****************************************************************
+2015-06-14 08:24:40.8763|INFO|DataEntryFirstStep.DataEntryForm|总页数:	2
+2015-06-14 09:36:39.7023|INFO|DataEntryFirstStep.DataEntryForm|*****************************************************************
+2015-06-14 09:36:39.7179|INFO|DataEntryFirstStep.DataEntryForm|打开一个新batch
+2015-06-14 09:36:39.7179|INFO|DataEntryFirstStep.DataEntryForm|*****************************************************************
+2015-06-14 09:36:39.8116|INFO|DataEntryFirstStep.DataEntryForm|总页数:	2
+2015-06-14 09:37:00.2741|INFO|DataEntryFirstStep.DataEntryForm|*****************************************************************
+2015-06-14 09:37:00.2898|INFO|DataEntryFirstStep.DataEntryForm|继续上次batch
+2015-06-14 09:37:00.2898|INFO|DataEntryFirstStep.DataEntryForm|*****************************************************************
+2015-06-14 09:37:01.3369|INFO|DataEntryFirstStep.DataEntryForm|*****************************************************************
+2015-06-14 09:37:01.3369|INFO|DataEntryFirstStep.DataEntryForm|打开一个新batch
+2015-06-14 09:37:01.3369|INFO|DataEntryFirstStep.DataEntryForm|*****************************************************************
+2015-06-14 09:37:01.3525|INFO|DataEntryFirstStep.DataEntryForm|总页数:	2
+2015-06-14 09:37:25.0542|INFO|DataEntryFirstStep.DataEntryForm|*****************************************************************
+2015-06-14 09:37:25.0542|INFO|DataEntryFirstStep.DataEntryForm|继续上次batch
+2015-06-14 09:37:25.0542|INFO|DataEntryFirstStep.DataEntryForm|*****************************************************************
+2015-06-14 09:37:26.0546|INFO|DataEntryFirstStep.DataEntryForm|*****************************************************************
+2015-06-14 09:37:26.0546|INFO|DataEntryFirstStep.DataEntryForm|打开一个新batch
+2015-06-14 09:37:26.0546|INFO|DataEntryFirstStep.DataEntryForm|*****************************************************************
+2015-06-14 09:37:26.0546|INFO|DataEntryFirstStep.DataEntryForm|总页数:	2
+2015-06-14 09:37:36.3945|INFO|DataEntryFirstStep.DataEntryForm|*****************************************************************
+2015-06-14 09:37:36.4101|INFO|DataEntryFirstStep.DataEntryForm|继续上次batch
+2015-06-14 09:37:36.4101|INFO|DataEntryFirstStep.DataEntryForm|*****************************************************************
+2015-06-14 09:37:37.2384|INFO|DataEntryFirstStep.DataEntryForm|*****************************************************************
+2015-06-14 09:37:37.2540|INFO|DataEntryFirstStep.DataEntryForm|打开一个新batch
+2015-06-14 09:37:37.2540|INFO|DataEntryFirstStep.DataEntryForm|*****************************************************************
+2015-06-14 09:37:37.2540|INFO|DataEntryFirstStep.DataEntryForm|总页数:	2
+2015-06-14 09:48:15.6736|INFO|DataEntryFirstStep.DataEntryForm|*****************************************************************
+2015-06-14 09:48:15.6847|INFO|DataEntryFirstStep.DataEntryForm|继续上次batch
+2015-06-14 09:48:15.6847|INFO|DataEntryFirstStep.DataEntryForm|*****************************************************************
+2015-06-14 09:48:16.3801|INFO|DataEntryFirstStep.DataEntryForm|*****************************************************************
+2015-06-14 09:48:16.3801|INFO|DataEntryFirstStep.DataEntryForm|打开一个新batch
+2015-06-14 09:48:16.3801|INFO|DataEntryFirstStep.DataEntryForm|*****************************************************************
+2015-06-14 09:48:16.3801|INFO|DataEntryFirstStep.DataEntryForm|总页数:	2
+2015-06-14 09:49:51.9489|INFO|DataEntryFirstStep.DataEntryForm|*****************************************************************
+2015-06-14 09:49:51.9569|INFO|DataEntryFirstStep.DataEntryForm|继续上次batch
+2015-06-14 09:49:51.9569|INFO|DataEntryFirstStep.DataEntryForm|*****************************************************************
+2015-06-14 09:49:52.8709|INFO|DataEntryFirstStep.DataEntryForm|*****************************************************************
+2015-06-14 09:49:52.8709|INFO|DataEntryFirstStep.DataEntryForm|打开一个新batch
+2015-06-14 09:49:52.8719|INFO|DataEntryFirstStep.DataEntryForm|*****************************************************************
+2015-06-14 09:49:52.8719|INFO|DataEntryFirstStep.DataEntryForm|总页数:	2
+2015-06-14 09:51:37.1037|INFO|DataEntryFirstStep.DataEntryForm|*****************************************************************
+2015-06-14 09:51:37.1117|INFO|DataEntryFirstStep.DataEntryForm|打开一个新batch
+2015-06-14 09:51:37.1117|INFO|DataEntryFirstStep.DataEntryForm|*****************************************************************
+2015-06-14 09:51:37.2027|INFO|DataEntryFirstStep.DataEntryForm|总页数:	2
+2015-06-14 09:53:25.0869|INFO|DataEntryFirstStep.DataEntryForm|*****************************************************************
+2015-06-14 09:53:25.0869|INFO|DataEntryFirstStep.DataEntryForm|打开一个新batch
+2015-06-14 09:53:25.0869|INFO|DataEntryFirstStep.DataEntryForm|*****************************************************************
+2015-06-14 09:53:25.1878|INFO|DataEntryFirstStep.DataEntryForm|总页数:	2
+2015-06-14 09:58:57.3693|INFO|DataEntryFirstStep.DataEntryForm|*****************************************************************
+2015-06-14 09:58:57.3763|INFO|DataEntryFirstStep.DataEntryForm|继续上次batch
+2015-06-14 09:58:57.3763|INFO|DataEntryFirstStep.DataEntryForm|*****************************************************************
+2015-06-14 09:58:58.4635|INFO|DataEntryFirstStep.DataEntryForm|*****************************************************************
+2015-06-14 09:58:58.4635|INFO|DataEntryFirstStep.DataEntryForm|打开一个新batch
+2015-06-14 09:58:58.4635|INFO|DataEntryFirstStep.DataEntryForm|*****************************************************************
+2015-06-14 09:58:58.4675|INFO|DataEntryFirstStep.DataEntryForm|总页数:	2
+2015-06-14 10:04:22.4432|INFO|DataEntryFirstStep.DataEntryForm|*****************************************************************
+2015-06-14 10:04:22.4588|INFO|DataEntryFirstStep.DataEntryForm|打开一个新batch
+2015-06-14 10:04:22.4588|INFO|DataEntryFirstStep.DataEntryForm|*****************************************************************
+2015-06-14 10:04:22.5369|INFO|DataEntryFirstStep.DataEntryForm|总页数:	2
+2015-06-14 10:07:31.6195|INFO|DataEntryFirstStep.DataEntryForm|*****************************************************************
+2015-06-14 10:07:31.6256|INFO|DataEntryFirstStep.DataEntryForm|继续上次batch
+2015-06-14 10:07:31.6256|INFO|DataEntryFirstStep.DataEntryForm|*****************************************************************
+2015-06-14 10:07:32.3244|INFO|DataEntryFirstStep.DataEntryForm|*****************************************************************
+2015-06-14 10:07:32.3244|INFO|DataEntryFirstStep.DataEntryForm|打开一个新batch
+2015-06-14 10:07:32.3244|INFO|DataEntryFirstStep.DataEntryForm|*****************************************************************
+2015-06-14 10:07:32.3244|INFO|DataEntryFirstStep.DataEntryForm|总页数:	2
+2015-06-14 10:08:58.4208|INFO|DataEntryFirstStep.DataEntryForm|*****************************************************************
+2015-06-14 10:08:58.4208|INFO|DataEntryFirstStep.DataEntryForm|继续上次batch
+2015-06-14 10:08:58.4208|INFO|DataEntryFirstStep.DataEntryForm|*****************************************************************
+2015-06-14 10:08:59.2724|INFO|DataEntryFirstStep.DataEntryForm|*****************************************************************
+2015-06-14 10:08:59.2724|INFO|DataEntryFirstStep.DataEntryForm|打开一个新batch
+2015-06-14 10:08:59.2724|INFO|DataEntryFirstStep.DataEntryForm|*****************************************************************
+2015-06-14 10:08:59.2724|INFO|DataEntryFirstStep.DataEntryForm|总页数:	2
+2015-06-14 10:14:21.5708|INFO|DataEntryFirstStep.DataEntryForm|*****************************************************************
+2015-06-14 10:14:21.5778|INFO|DataEntryFirstStep.DataEntryForm|继续上次batch
+2015-06-14 10:14:21.5778|INFO|DataEntryFirstStep.DataEntryForm|*****************************************************************
+2015-06-14 10:14:22.3724|INFO|DataEntryFirstStep.DataEntryForm|*****************************************************************
+2015-06-14 10:14:22.3724|INFO|DataEntryFirstStep.DataEntryForm|打开一个新batch
+2015-06-14 10:14:22.3724|INFO|DataEntryFirstStep.DataEntryForm|*****************************************************************
+2015-06-14 10:14:22.3724|INFO|DataEntryFirstStep.DataEntryForm|总页数:	2
+2015-06-14 10:17:32.3342|INFO|DataEntryFirstStep.DataEntryForm|*****************************************************************
+2015-06-14 10:17:32.3498|INFO|DataEntryFirstStep.DataEntryForm|打开一个新batch
+2015-06-14 10:17:32.3498|INFO|DataEntryFirstStep.DataEntryForm|*****************************************************************
+2015-06-14 10:17:32.3967|INFO|DataEntryFirstStep.DataEntryForm|总页数:	2
+2015-06-14 10:31:15.6696|INFO|DataEntryFirstStep.DataEntryForm|*****************************************************************
+2015-06-14 10:31:15.6852|INFO|DataEntryFirstStep.DataEntryForm|继续上次batch
+2015-06-14 10:31:15.6852|INFO|DataEntryFirstStep.DataEntryForm|*****************************************************************
+2015-06-14 10:31:16.5917|INFO|DataEntryFirstStep.DataEntryForm|*****************************************************************
+2015-06-14 10:31:16.5917|INFO|DataEntryFirstStep.DataEntryForm|打开一个新batch
+2015-06-14 10:31:16.5917|INFO|DataEntryFirstStep.DataEntryForm|*****************************************************************
+2015-06-14 10:31:16.5917|INFO|DataEntryFirstStep.DataEntryForm|总页数:	2
+2015-06-14 10:32:11.0659|INFO|DataEntryFirstStep.DataEntryForm|*****************************************************************
+2015-06-14 10:32:11.0815|INFO|DataEntryFirstStep.DataEntryForm|继续上次batch
+2015-06-14 10:32:11.0815|INFO|DataEntryFirstStep.DataEntryForm|*****************************************************************
+2015-06-14 10:32:12.0815|INFO|DataEntryFirstStep.DataEntryForm|*****************************************************************
+2015-06-14 10:32:12.0815|INFO|DataEntryFirstStep.DataEntryForm|打开一个新batch
+2015-06-14 10:32:12.0815|INFO|DataEntryFirstStep.DataEntryForm|*****************************************************************
+2015-06-14 10:32:12.0815|INFO|DataEntryFirstStep.DataEntryForm|总页数:	2
+2015-06-14 10:40:27.5523|INFO|DataEntryFirstStep.DataEntryForm|*****************************************************************
+2015-06-14 10:40:27.5679|INFO|DataEntryFirstStep.DataEntryForm|继续上次batch
+2015-06-14 10:40:27.5679|INFO|DataEntryFirstStep.DataEntryForm|*****************************************************************
+2015-06-14 10:40:28.3804|INFO|DataEntryFirstStep.DataEntryForm|*****************************************************************
+2015-06-14 10:40:28.3804|INFO|DataEntryFirstStep.DataEntryForm|打开一个新batch
+2015-06-14 10:40:28.3804|INFO|DataEntryFirstStep.DataEntryForm|*****************************************************************
+2015-06-14 10:40:28.3804|INFO|DataEntryFirstStep.DataEntryForm|总页数:	2
+2015-06-14 10:41:21.1525|INFO|DataEntryFirstStep.DataEntryForm|*****************************************************************
+2015-06-14 10:41:21.1681|INFO|DataEntryFirstStep.DataEntryForm|继续上次batch
+2015-06-14 10:41:21.1681|INFO|DataEntryFirstStep.DataEntryForm|*****************************************************************
+2015-06-14 10:41:22.0431|INFO|DataEntryFirstStep.DataEntryForm|*****************************************************************
+2015-06-14 10:41:22.0431|INFO|DataEntryFirstStep.DataEntryForm|打开一个新batch
+2015-06-14 10:41:22.0431|INFO|DataEntryFirstStep.DataEntryForm|*****************************************************************
+2015-06-14 10:41:22.0431|INFO|DataEntryFirstStep.DataEntryForm|总页数:	2
+2015-06-14 10:41:41.0942|INFO|DataEntryFirstStep.DataEntryForm|*****************************************************************
+2015-06-14 10:41:41.1098|INFO|DataEntryFirstStep.DataEntryForm|继续上次batch
+2015-06-14 10:41:41.1098|INFO|DataEntryFirstStep.DataEntryForm|*****************************************************************
+2015-06-14 10:41:42.0635|INFO|DataEntryFirstStep.DataEntryForm|*****************************************************************
+2015-06-14 10:41:42.0635|INFO|DataEntryFirstStep.DataEntryForm|打开一个新batch
+2015-06-14 10:41:42.0635|INFO|DataEntryFirstStep.DataEntryForm|*****************************************************************
+2015-06-14 10:41:42.0635|INFO|DataEntryFirstStep.DataEntryForm|总页数:	2
+2015-06-14 10:47:32.3867|INFO|DataEntryFirstStep.DataEntryForm|*****************************************************************
+2015-06-14 10:47:32.4022|INFO|DataEntryFirstStep.DataEntryForm|继续上次batch
+2015-06-14 10:47:32.4022|INFO|DataEntryFirstStep.DataEntryForm|*****************************************************************
+2015-06-14 10:47:34.0903|INFO|DataEntryFirstStep.DataEntryForm|*****************************************************************
+2015-06-14 10:47:34.0903|INFO|DataEntryFirstStep.DataEntryForm|打开一个新batch
+2015-06-14 10:47:34.0903|INFO|DataEntryFirstStep.DataEntryForm|*****************************************************************
+2015-06-14 10:47:34.1059|INFO|DataEntryFirstStep.DataEntryForm|总页数:	2
+2015-06-14 10:48:04.6576|INFO|DataEntryFirstStep.DataEntryForm|*****************************************************************
+2015-06-14 10:48:04.6732|INFO|DataEntryFirstStep.DataEntryForm|继续上次batch
+2015-06-14 10:48:04.6732|INFO|DataEntryFirstStep.DataEntryForm|*****************************************************************
+2015-06-14 10:48:05.5013|INFO|DataEntryFirstStep.DataEntryForm|*****************************************************************
+2015-06-14 10:48:05.5013|INFO|DataEntryFirstStep.DataEntryForm|打开一个新batch
+2015-06-14 10:48:05.5013|INFO|DataEntryFirstStep.DataEntryForm|*****************************************************************
+2015-06-14 10:48:05.5013|INFO|DataEntryFirstStep.DataEntryForm|总页数:	2
+2015-06-14 10:48:41.0855|INFO|DataEntryFirstStep.DataEntryForm|*****************************************************************
+2015-06-14 10:48:41.0855|INFO|DataEntryFirstStep.DataEntryForm|继续上次batch
+2015-06-14 10:48:41.0855|INFO|DataEntryFirstStep.DataEntryForm|*****************************************************************
+2015-06-14 10:48:41.9761|INFO|DataEntryFirstStep.DataEntryForm|*****************************************************************
+2015-06-14 10:48:41.9761|INFO|DataEntryFirstStep.DataEntryForm|打开一个新batch
+2015-06-14 10:48:41.9761|INFO|DataEntryFirstStep.DataEntryForm|*****************************************************************
+2015-06-14 10:48:41.9761|INFO|DataEntryFirstStep.DataEntryForm|总页数:	2
+2015-06-14 10:52:59.9178|INFO|DataEntryFirstStep.DataEntryForm|*****************************************************************
+2015-06-14 10:52:59.9334|INFO|DataEntryFirstStep.DataEntryForm|继续上次batch
+2015-06-14 10:52:59.9334|INFO|DataEntryFirstStep.DataEntryForm|*****************************************************************
+2015-06-14 10:53:00.6993|INFO|DataEntryFirstStep.DataEntryForm|*****************************************************************
+2015-06-14 10:53:00.6993|INFO|DataEntryFirstStep.DataEntryForm|打开一个新batch
+2015-06-14 10:53:00.6993|INFO|DataEntryFirstStep.DataEntryForm|*****************************************************************
+2015-06-14 10:53:00.7149|INFO|DataEntryFirstStep.DataEntryForm|总页数:	2
+2015-06-14 10:53:17.1728|INFO|DataEntryFirstStep.DataEntryForm|*****************************************************************
+2015-06-14 10:53:17.1728|INFO|DataEntryFirstStep.DataEntryForm|Batch结束
+2015-06-14 10:53:17.1728|INFO|DataEntryFirstStep.DataEntryForm|*****************************************************************
+2015-06-14 10:57:43.0938|INFO|DataEntryFirstStep.DataEntryForm|*****************************************************************
+2015-06-14 10:57:43.1094|INFO|DataEntryFirstStep.DataEntryForm|打开一个新batch
+2015-06-14 10:57:43.1094|INFO|DataEntryFirstStep.DataEntryForm|*****************************************************************
+2015-06-14 10:57:43.1563|INFO|DataEntryFirstStep.DataEntryForm|总页数:	2
+2015-06-14 10:58:10.3969|INFO|DataEntryFirstStep.DataEntryForm|*****************************************************************
+2015-06-14 10:58:10.4039|INFO|DataEntryFirstStep.DataEntryForm|继续上次batch
+2015-06-14 10:58:10.4039|INFO|DataEntryFirstStep.DataEntryForm|*****************************************************************
+2015-06-14 10:58:11.2688|INFO|DataEntryFirstStep.DataEntryForm|*****************************************************************
+2015-06-14 10:58:11.2688|INFO|DataEntryFirstStep.DataEntryForm|打开一个新batch
+2015-06-14 10:58:11.2688|INFO|DataEntryFirstStep.DataEntryForm|*****************************************************************
+2015-06-14 10:58:11.2688|INFO|DataEntryFirstStep.DataEntryForm|总页数:	2
+2015-06-14 10:58:52.3380|INFO|DataEntryFirstStep.DataEntryForm|*****************************************************************
+2015-06-14 10:58:52.3440|INFO|DataEntryFirstStep.DataEntryForm|继续上次batch
+2015-06-14 10:58:52.3440|INFO|DataEntryFirstStep.DataEntryForm|*****************************************************************
+2015-06-14 10:58:53.1175|INFO|DataEntryFirstStep.DataEntryForm|*****************************************************************
+2015-06-14 10:58:53.1175|INFO|DataEntryFirstStep.DataEntryForm|打开一个新batch
+2015-06-14 10:58:53.1215|INFO|DataEntryFirstStep.DataEntryForm|*****************************************************************
+2015-06-14 10:58:53.1215|INFO|DataEntryFirstStep.DataEntryForm|总页数:	2
+2015-06-14 10:59:41.1747|INFO|DataEntryFirstStep.DataEntryForm|*****************************************************************
+2015-06-14 10:59:41.1904|INFO|DataEntryFirstStep.DataEntryForm|继续上次batch
+2015-06-14 10:59:41.1904|INFO|DataEntryFirstStep.DataEntryForm|*****************************************************************
+2015-06-14 10:59:42.0656|INFO|DataEntryFirstStep.DataEntryForm|*****************************************************************
+2015-06-14 10:59:42.0656|INFO|DataEntryFirstStep.DataEntryForm|打开一个新batch
+2015-06-14 10:59:42.0656|INFO|DataEntryFirstStep.DataEntryForm|*****************************************************************
+2015-06-14 10:59:42.0656|INFO|DataEntryFirstStep.DataEntryForm|总页数:	2
+2015-06-14 11:04:10.2436|INFO|DataEntryFirstStep.DataEntryForm|*****************************************************************
+2015-06-14 11:04:10.2496|INFO|DataEntryFirstStep.DataEntryForm|继续上次batch
+2015-06-14 11:04:10.2496|INFO|DataEntryFirstStep.DataEntryForm|*****************************************************************
+2015-06-14 11:04:11.0722|INFO|DataEntryFirstStep.DataEntryForm|*****************************************************************
+2015-06-14 11:04:11.0722|INFO|DataEntryFirstStep.DataEntryForm|打开一个新batch
+2015-06-14 11:04:11.0752|INFO|DataEntryFirstStep.DataEntryForm|*****************************************************************
+2015-06-14 11:04:11.0752|INFO|DataEntryFirstStep.DataEntryForm|总页数:	2
+2015-06-14 11:05:06.5297|INFO|DataEntryFirstStep.DataEntryForm|*****************************************************************
+2015-06-14 11:05:06.5297|INFO|DataEntryFirstStep.DataEntryForm|继续上次batch
+2015-06-14 11:05:06.5297|INFO|DataEntryFirstStep.DataEntryForm|*****************************************************************
+2015-06-14 11:05:07.5064|INFO|DataEntryFirstStep.DataEntryForm|*****************************************************************
+2015-06-14 11:05:07.5064|INFO|DataEntryFirstStep.DataEntryForm|打开一个新batch
+2015-06-14 11:05:07.5064|INFO|DataEntryFirstStep.DataEntryForm|*****************************************************************
+2015-06-14 11:05:07.5064|INFO|DataEntryFirstStep.DataEntryForm|总页数:	2
+2015-06-14 13:13:19.1013|INFO|DataEntryFirstStep.DataEntryForm|*****************************************************************
+2015-06-14 13:13:19.1170|INFO|DataEntryFirstStep.DataEntryForm|打开一个新batch
+2015-06-14 13:13:19.1170|INFO|DataEntryFirstStep.DataEntryForm|*****************************************************************
+2015-06-14 13:13:19.1638|INFO|DataEntryFirstStep.DataEntryForm|总页数:	2
+2015-06-14 13:42:34.3550|INFO|DataEntryFirstStep.DataEntryForm|*****************************************************************
+2015-06-14 13:42:34.3706|INFO|DataEntryFirstStep.DataEntryForm|继续上次batch
+2015-06-14 13:42:34.3706|INFO|DataEntryFirstStep.DataEntryForm|*****************************************************************
+2015-06-14 13:42:35.1675|INFO|DataEntryFirstStep.DataEntryForm|*****************************************************************
+2015-06-14 13:42:35.1675|INFO|DataEntryFirstStep.DataEntryForm|打开一个新batch
+2015-06-14 13:42:35.1675|INFO|DataEntryFirstStep.DataEntryForm|*****************************************************************
+2015-06-14 13:42:35.1675|INFO|DataEntryFirstStep.DataEntryForm|总页数:	2
+2015-06-14 13:45:59.0229|INFO|DataEntryFirstStep.DataEntryForm|*****************************************************************
+2015-06-14 13:45:59.0385|INFO|DataEntryFirstStep.DataEntryForm|继续上次batch
+2015-06-14 13:45:59.0385|INFO|DataEntryFirstStep.DataEntryForm|*****************************************************************
+2015-06-14 13:46:00.3826|INFO|DataEntryFirstStep.DataEntryForm|*****************************************************************
+2015-06-14 13:46:00.3826|INFO|DataEntryFirstStep.DataEntryForm|打开一个新batch
+2015-06-14 13:46:00.3826|INFO|DataEntryFirstStep.DataEntryForm|*****************************************************************
+2015-06-14 13:46:00.3826|INFO|DataEntryFirstStep.DataEntryForm|总页数:	2
+2015-06-14 13:46:23.6729|INFO|DataEntryFirstStep.DataEntryForm|*****************************************************************
+2015-06-14 13:46:23.6885|INFO|DataEntryFirstStep.DataEntryForm|继续上次batch
+2015-06-14 13:46:23.6885|INFO|DataEntryFirstStep.DataEntryForm|*****************************************************************
+2015-06-14 13:46:24.5791|INFO|DataEntryFirstStep.DataEntryForm|*****************************************************************
+2015-06-14 13:46:24.5791|INFO|DataEntryFirstStep.DataEntryForm|打开一个新batch
+2015-06-14 13:46:24.5791|INFO|DataEntryFirstStep.DataEntryForm|*****************************************************************
+2015-06-14 13:46:24.5791|INFO|DataEntryFirstStep.DataEntryForm|总页数:	2
+2015-06-14 13:46:39.2543|INFO|DataEntryFirstStep.DataEntryForm|*****************************************************************
+2015-06-14 13:46:39.2699|INFO|DataEntryFirstStep.DataEntryForm|继续上次batch
+2015-06-14 13:46:39.2699|INFO|DataEntryFirstStep.DataEntryForm|*****************************************************************
+2015-06-14 13:46:40.1137|INFO|DataEntryFirstStep.DataEntryForm|*****************************************************************
+2015-06-14 13:46:40.1137|INFO|DataEntryFirstStep.DataEntryForm|打开一个新batch
+2015-06-14 13:46:40.1137|INFO|DataEntryFirstStep.DataEntryForm|*****************************************************************
+2015-06-14 13:46:40.1293|INFO|DataEntryFirstStep.DataEntryForm|总页数:	2
+2015-06-14 13:46:52.1259|INFO|DataEntryFirstStep.DataEntryForm|*****************************************************************
+2015-06-14 13:46:52.1415|INFO|DataEntryFirstStep.DataEntryForm|继续上次batch
+2015-06-14 13:46:52.1415|INFO|DataEntryFirstStep.DataEntryForm|*****************************************************************
+2015-06-14 13:46:52.9146|INFO|DataEntryFirstStep.DataEntryForm|*****************************************************************
+2015-06-14 13:46:52.9146|INFO|DataEntryFirstStep.DataEntryForm|打开一个新batch
+2015-06-14 13:46:52.9146|INFO|DataEntryFirstStep.DataEntryForm|*****************************************************************
+2015-06-14 13:46:52.9206|INFO|DataEntryFirstStep.DataEntryForm|总页数:	2
+2015-06-14 13:47:30.0738|INFO|DataEntryFirstStep.DataEntryForm|*****************************************************************
+2015-06-14 13:47:30.0894|INFO|DataEntryFirstStep.DataEntryForm|继续上次batch
+2015-06-14 13:47:30.0894|INFO|DataEntryFirstStep.DataEntryForm|*****************************************************************
+2015-06-14 13:47:31.1207|INFO|DataEntryFirstStep.DataEntryForm|*****************************************************************
+2015-06-14 13:47:31.1207|INFO|DataEntryFirstStep.DataEntryForm|打开一个新batch
+2015-06-14 13:47:31.1207|INFO|DataEntryFirstStep.DataEntryForm|*****************************************************************
+2015-06-14 13:47:31.1207|INFO|DataEntryFirstStep.DataEntryForm|总页数:	2
+2015-06-14 13:49:58.2342|INFO|DataEntryFirstStep.DataEntryForm|*****************************************************************
+2015-06-14 13:49:58.2498|INFO|DataEntryFirstStep.DataEntryForm|继续上次batch
+2015-06-14 13:49:58.2498|INFO|DataEntryFirstStep.DataEntryForm|*****************************************************************
+2015-06-14 13:49:59.0935|INFO|DataEntryFirstStep.DataEntryForm|*****************************************************************
+2015-06-14 13:49:59.0935|INFO|DataEntryFirstStep.DataEntryForm|打开一个新batch
+2015-06-14 13:49:59.0935|INFO|DataEntryFirstStep.DataEntryForm|*****************************************************************
+2015-06-14 13:49:59.0935|INFO|DataEntryFirstStep.DataEntryForm|总页数:	2
+2015-06-14 13:58:21.0408|INFO|DataEntryFirstStep.DataEntryForm|*****************************************************************
+2015-06-14 13:58:21.0564|INFO|DataEntryFirstStep.DataEntryForm|继续上次batch
+2015-06-14 13:58:21.0564|INFO|DataEntryFirstStep.DataEntryForm|*****************************************************************
+2015-06-14 13:58:21.8846|INFO|DataEntryFirstStep.DataEntryForm|*****************************************************************
+2015-06-14 13:58:21.8846|INFO|DataEntryFirstStep.DataEntryForm|打开一个新batch
+2015-06-14 13:58:21.9002|INFO|DataEntryFirstStep.DataEntryForm|*****************************************************************
+2015-06-14 13:58:21.9002|INFO|DataEntryFirstStep.DataEntryForm|总页数:	2
+2015-06-14 14:03:50.1546|INFO|DataEntryFirstStep.DataEntryForm|*****************************************************************
+2015-06-14 14:03:50.1703|INFO|DataEntryFirstStep.DataEntryForm|继续上次batch
+2015-06-14 14:03:50.1703|INFO|DataEntryFirstStep.DataEntryForm|*****************************************************************
+2015-06-14 14:03:50.9987|INFO|DataEntryFirstStep.DataEntryForm|*****************************************************************
+2015-06-14 14:03:50.9987|INFO|DataEntryFirstStep.DataEntryForm|打开一个新batch
+2015-06-14 14:03:50.9987|INFO|DataEntryFirstStep.DataEntryForm|*****************************************************************
+2015-06-14 14:03:51.0143|INFO|DataEntryFirstStep.DataEntryForm|总页数:	2
+2015-06-14 14:06:13.5334|INFO|DataEntryFirstStep.DataEntryForm|*****************************************************************
+2015-06-14 14:06:13.5435|INFO|DataEntryFirstStep.DataEntryForm|继续上次batch
+2015-06-14 14:06:13.5435|INFO|DataEntryFirstStep.DataEntryForm|*****************************************************************
+2015-06-14 14:06:14.3377|INFO|DataEntryFirstStep.DataEntryForm|*****************************************************************
+2015-06-14 14:06:14.3377|INFO|DataEntryFirstStep.DataEntryForm|打开一个新batch
+2015-06-14 14:06:14.3377|INFO|DataEntryFirstStep.DataEntryForm|*****************************************************************
+2015-06-14 14:06:14.3377|INFO|DataEntryFirstStep.DataEntryForm|总页数:	2
+2015-06-14 14:08:34.7423|INFO|DataEntryFirstStep.DataEntryForm|*****************************************************************
+2015-06-14 14:08:34.7423|INFO|DataEntryFirstStep.DataEntryForm|继续上次batch
+2015-06-14 14:08:34.7423|INFO|DataEntryFirstStep.DataEntryForm|*****************************************************************
+2015-06-14 14:08:35.5235|INFO|DataEntryFirstStep.DataEntryForm|*****************************************************************
+2015-06-14 14:08:35.5235|INFO|DataEntryFirstStep.DataEntryForm|打开一个新batch
+2015-06-14 14:08:35.5235|INFO|DataEntryFirstStep.DataEntryForm|*****************************************************************
+2015-06-14 14:08:35.5235|INFO|DataEntryFirstStep.DataEntryForm|总页数:	2
+2015-06-14 14:10:24.2933|INFO|DataEntryFirstStep.DataEntryForm|*****************************************************************
+2015-06-14 14:10:24.3089|INFO|DataEntryFirstStep.DataEntryForm|继续上次batch
+2015-06-14 14:10:24.3089|INFO|DataEntryFirstStep.DataEntryForm|*****************************************************************
+2015-06-14 14:10:25.4339|INFO|DataEntryFirstStep.DataEntryForm|*****************************************************************
+2015-06-14 14:10:25.4339|INFO|DataEntryFirstStep.DataEntryForm|打开一个新batch
+2015-06-14 14:10:25.4339|INFO|DataEntryFirstStep.DataEntryForm|*****************************************************************
+2015-06-14 14:10:25.4339|INFO|DataEntryFirstStep.DataEntryForm|总页数:	2
+2015-06-14 14:16:57.4630|INFO|DataEntryFirstStep.DataEntryForm|*****************************************************************
+2015-06-14 14:16:57.4786|INFO|DataEntryFirstStep.DataEntryForm|继续上次batch
+2015-06-14 14:16:57.4786|INFO|DataEntryFirstStep.DataEntryForm|*****************************************************************
+2015-06-14 14:16:58.4161|INFO|DataEntryFirstStep.DataEntryForm|*****************************************************************
+2015-06-14 14:16:58.4161|INFO|DataEntryFirstStep.DataEntryForm|打开一个新batch
+2015-06-14 14:16:58.4317|INFO|DataEntryFirstStep.DataEntryForm|*****************************************************************
+2015-06-14 14:16:58.4317|INFO|DataEntryFirstStep.DataEntryForm|总页数:	2
+2015-06-14 14:17:51.3614|INFO|DataEntryFirstStep.DataEntryForm|*****************************************************************
+2015-06-14 14:17:51.3614|INFO|DataEntryFirstStep.DataEntryForm|继续上次batch
+2015-06-14 14:17:51.3614|INFO|DataEntryFirstStep.DataEntryForm|*****************************************************************
+2015-06-14 14:17:52.1074|INFO|DataEntryFirstStep.DataEntryForm|*****************************************************************
+2015-06-14 14:17:52.1074|INFO|DataEntryFirstStep.DataEntryForm|打开一个新batch
+2015-06-14 14:17:52.1074|INFO|DataEntryFirstStep.DataEntryForm|*****************************************************************
+2015-06-14 14:17:52.1074|INFO|DataEntryFirstStep.DataEntryForm|总页数:	2
+2015-06-14 14:23:03.2845|INFO|DataEntryFirstStep.DataEntryForm|*****************************************************************
+2015-06-14 14:23:03.2845|INFO|DataEntryFirstStep.DataEntryForm|继续上次batch
+2015-06-14 14:23:03.3001|INFO|DataEntryFirstStep.DataEntryForm|*****************************************************************
+2015-06-14 14:23:03.9724|INFO|DataEntryFirstStep.DataEntryForm|*****************************************************************
+2015-06-14 14:23:03.9724|INFO|DataEntryFirstStep.DataEntryForm|打开一个新batch
+2015-06-14 14:23:03.9724|INFO|DataEntryFirstStep.DataEntryForm|*****************************************************************
+2015-06-14 14:23:03.9724|INFO|DataEntryFirstStep.DataEntryForm|总页数:	2
+2015-06-14 14:23:30.5202|INFO|DataEntryFirstStep.DataEntryForm|*****************************************************************
+2015-06-14 14:23:30.5358|INFO|DataEntryFirstStep.DataEntryForm|继续上次batch
+2015-06-14 14:23:30.5358|INFO|DataEntryFirstStep.DataEntryForm|*****************************************************************
+2015-06-14 14:23:31.4108|INFO|DataEntryFirstStep.DataEntryForm|*****************************************************************
+2015-06-14 14:23:31.4108|INFO|DataEntryFirstStep.DataEntryForm|打开一个新batch
+2015-06-14 14:23:31.4108|INFO|DataEntryFirstStep.DataEntryForm|*****************************************************************
+2015-06-14 14:23:31.4264|INFO|DataEntryFirstStep.DataEntryForm|总页数:	2
+2015-06-14 14:25:06.6861|INFO|DataEntryFirstStep.DataEntryForm|*****************************************************************
+2015-06-14 14:25:06.7017|INFO|DataEntryFirstStep.DataEntryForm|继续上次batch
+2015-06-14 14:25:06.7017|INFO|DataEntryFirstStep.DataEntryForm|*****************************************************************
+2015-06-14 14:25:07.3582|INFO|DataEntryFirstStep.DataEntryForm|*****************************************************************
+2015-06-14 14:25:07.3582|INFO|DataEntryFirstStep.DataEntryForm|打开一个新batch
+2015-06-14 14:25:07.3582|INFO|DataEntryFirstStep.DataEntryForm|*****************************************************************
+2015-06-14 14:25:07.3582|INFO|DataEntryFirstStep.DataEntryForm|总页数:	2
+2015-06-14 14:28:11.5023|INFO|DataEntryFirstStep.DataEntryForm|*****************************************************************
+2015-06-14 14:28:11.5179|INFO|DataEntryFirstStep.DataEntryForm|继续上次batch
+2015-06-14 14:28:11.5179|INFO|DataEntryFirstStep.DataEntryForm|*****************************************************************
+2015-06-14 14:28:12.3537|INFO|DataEntryFirstStep.DataEntryForm|*****************************************************************
+2015-06-14 14:28:12.3537|INFO|DataEntryFirstStep.DataEntryForm|打开一个新batch
+2015-06-14 14:28:12.3537|INFO|DataEntryFirstStep.DataEntryForm|*****************************************************************
+2015-06-14 14:28:12.3577|INFO|DataEntryFirstStep.DataEntryForm|总页数:	2
+2015-06-14 14:28:30.7626|INFO|DataEntryFirstStep.DataEntryForm|*****************************************************************
+2015-06-14 14:28:30.7782|INFO|DataEntryFirstStep.DataEntryForm|继续上次batch
+2015-06-14 14:28:30.7782|INFO|DataEntryFirstStep.DataEntryForm|*****************************************************************
+2015-06-14 14:28:31.6220|INFO|DataEntryFirstStep.DataEntryForm|*****************************************************************
+2015-06-14 14:28:31.6220|INFO|DataEntryFirstStep.DataEntryForm|打开一个新batch
+2015-06-14 14:28:31.6220|INFO|DataEntryFirstStep.DataEntryForm|*****************************************************************
+2015-06-14 14:28:31.6220|INFO|DataEntryFirstStep.DataEntryForm|总页数:	2
+2015-06-14 14:29:00.4824|INFO|DataEntryFirstStep.DataEntryForm|*****************************************************************
+2015-06-14 14:29:00.4980|INFO|DataEntryFirstStep.DataEntryForm|继续上次batch
+2015-06-14 14:29:00.4980|INFO|DataEntryFirstStep.DataEntryForm|*****************************************************************
+2015-06-14 14:29:01.7324|INFO|DataEntryFirstStep.DataEntryForm|*****************************************************************
+2015-06-14 14:29:01.7324|INFO|DataEntryFirstStep.DataEntryForm|打开一个新batch
+2015-06-14 14:29:01.7324|INFO|DataEntryFirstStep.DataEntryForm|*****************************************************************
+2015-06-14 14:29:01.7480|INFO|DataEntryFirstStep.DataEntryForm|总页数:	2
+2015-06-14 14:29:36.4409|INFO|DataEntryFirstStep.DataEntryForm|*****************************************************************
+2015-06-14 14:29:36.4499|INFO|DataEntryFirstStep.DataEntryForm|继续上次batch
+2015-06-14 14:29:36.4499|INFO|DataEntryFirstStep.DataEntryForm|*****************************************************************
+2015-06-14 14:29:37.3235|INFO|DataEntryFirstStep.DataEntryForm|*****************************************************************
+2015-06-14 14:29:37.3235|INFO|DataEntryFirstStep.DataEntryForm|打开一个新batch
+2015-06-14 14:29:37.3235|INFO|DataEntryFirstStep.DataEntryForm|*****************************************************************
+2015-06-14 14:29:37.3265|INFO|DataEntryFirstStep.DataEntryForm|总页数:	2
+2015-06-14 14:31:39.6218|INFO|DataEntryFirstStep.DataEntryForm|*****************************************************************
+2015-06-14 14:31:39.6218|INFO|DataEntryFirstStep.DataEntryForm|继续上次batch
+2015-06-14 14:31:39.6218|INFO|DataEntryFirstStep.DataEntryForm|*****************************************************************
+2015-06-14 14:31:40.3923|INFO|DataEntryFirstStep.DataEntryForm|*****************************************************************
+2015-06-14 14:31:40.3923|INFO|DataEntryFirstStep.DataEntryForm|打开一个新batch
+2015-06-14 14:31:40.3923|INFO|DataEntryFirstStep.DataEntryForm|*****************************************************************
+2015-06-14 14:31:40.3923|INFO|DataEntryFirstStep.DataEntryForm|总页数:	2
+2015-06-14 14:32:07.1160|INFO|DataEntryFirstStep.DataEntryForm|*****************************************************************
+2015-06-14 14:32:07.1160|INFO|DataEntryFirstStep.DataEntryForm|继续上次batch
+2015-06-14 14:32:07.1317|INFO|DataEntryFirstStep.DataEntryForm|*****************************************************************
+2015-06-14 14:32:07.8348|INFO|DataEntryFirstStep.DataEntryForm|*****************************************************************
+2015-06-14 14:32:07.8348|INFO|DataEntryFirstStep.DataEntryForm|打开一个新batch
+2015-06-14 14:32:07.8348|INFO|DataEntryFirstStep.DataEntryForm|*****************************************************************
+2015-06-14 14:32:07.8348|INFO|DataEntryFirstStep.DataEntryForm|总页数:	2
+2015-06-14 14:36:14.2075|INFO|DataEntryFirstStep.DataEntryForm|*****************************************************************
+2015-06-14 14:36:14.2075|INFO|DataEntryFirstStep.DataEntryForm|继续上次batch
+2015-06-14 14:36:14.2075|INFO|DataEntryFirstStep.DataEntryForm|*****************************************************************
+2015-06-14 14:36:15.1634|INFO|DataEntryFirstStep.DataEntryForm|*****************************************************************
+2015-06-14 14:36:15.1634|INFO|DataEntryFirstStep.DataEntryForm|打开一个新batch
+2015-06-14 14:36:15.1634|INFO|DataEntryFirstStep.DataEntryForm|*****************************************************************
+2015-06-14 14:36:15.1634|INFO|DataEntryFirstStep.DataEntryForm|总页数:	2
+2015-06-14 14:38:14.5906|INFO|DataEntryFirstStep.DataEntryForm|*****************************************************************
+2015-06-14 14:38:14.6062|INFO|DataEntryFirstStep.DataEntryForm|继续上次batch
+2015-06-14 14:38:14.6062|INFO|DataEntryFirstStep.DataEntryForm|*****************************************************************
+2015-06-14 14:38:18.8744|INFO|DataEntryFirstStep.DataEntryForm|总页数:	2
+2015-06-14 14:42:41.8612|INFO|DataEntryFirstStep.DataEntryForm|*****************************************************************
+2015-06-14 14:42:41.8612|INFO|DataEntryFirstStep.DataEntryForm|继续上次batch
+2015-06-14 14:42:41.8612|INFO|DataEntryFirstStep.DataEntryForm|*****************************************************************
+2015-06-14 14:42:42.6427|INFO|DataEntryFirstStep.DataEntryForm|*****************************************************************
+2015-06-14 14:42:42.6427|INFO|DataEntryFirstStep.DataEntryForm|打开一个新batch
+2015-06-14 14:42:42.6427|INFO|DataEntryFirstStep.DataEntryForm|*****************************************************************
+2015-06-14 14:42:42.6427|INFO|DataEntryFirstStep.DataEntryForm|总页数:	2
+2015-06-14 14:46:20.9528|INFO|DataEntryFirstStep.DataEntryForm|*****************************************************************
+2015-06-14 14:46:20.9528|INFO|DataEntryFirstStep.DataEntryForm|继续上次batch
+2015-06-14 14:46:20.9528|INFO|DataEntryFirstStep.DataEntryForm|*****************************************************************
+2015-06-14 14:46:21.6875|INFO|DataEntryFirstStep.DataEntryForm|*****************************************************************
+2015-06-14 14:46:21.6875|INFO|DataEntryFirstStep.DataEntryForm|打开一个新batch
+2015-06-14 14:46:21.6875|INFO|DataEntryFirstStep.DataEntryForm|*****************************************************************
+2015-06-14 14:46:21.6875|INFO|DataEntryFirstStep.DataEntryForm|总页数:	2
+2015-06-14 14:47:55.1017|INFO|DataEntryFirstStep.DataEntryForm|*****************************************************************
+2015-06-14 14:47:55.1173|INFO|DataEntryFirstStep.DataEntryForm|继续上次batch
+2015-06-14 14:47:55.1173|INFO|DataEntryFirstStep.DataEntryForm|*****************************************************************
+2015-06-14 14:47:55.8048|INFO|DataEntryFirstStep.DataEntryForm|*****************************************************************
+2015-06-14 14:47:55.8048|INFO|DataEntryFirstStep.DataEntryForm|打开一个新batch
+2015-06-14 14:47:55.8048|INFO|DataEntryFirstStep.DataEntryForm|*****************************************************************
+2015-06-14 14:47:55.8048|INFO|DataEntryFirstStep.DataEntryForm|总页数:	2
+2015-06-14 15:28:56.7819|INFO|DataEntryFirstStep.DataEntryForm|*****************************************************************
+2015-06-14 15:28:56.7819|INFO|DataEntryFirstStep.DataEntryForm|打开一个新batch
+2015-06-14 15:28:56.7975|INFO|DataEntryFirstStep.DataEntryForm|*****************************************************************
+2015-06-14 15:28:56.8288|INFO|DataEntryFirstStep.DataEntryForm|总页数:	2
+2015-06-14 15:33:29.4863|INFO|DataEntryFirstStep.DataEntryForm|*****************************************************************
+2015-06-14 15:33:29.5019|INFO|DataEntryFirstStep.DataEntryForm|继续上次batch
+2015-06-14 15:33:29.5019|INFO|DataEntryFirstStep.DataEntryForm|*****************************************************************
+2015-06-14 15:33:30.4553|INFO|DataEntryFirstStep.DataEntryForm|*****************************************************************
+2015-06-14 15:33:30.4709|INFO|DataEntryFirstStep.DataEntryForm|打开一个新batch
+2015-06-14 15:33:30.4709|INFO|DataEntryFirstStep.DataEntryForm|*****************************************************************
+2015-06-14 15:33:30.4709|INFO|DataEntryFirstStep.DataEntryForm|总页数:	2
+2015-06-14 15:34:49.0831|INFO|DataEntryFirstStep.DataEntryForm|*****************************************************************
+2015-06-14 15:34:49.0987|INFO|DataEntryFirstStep.DataEntryForm|继续上次batch
+2015-06-14 15:34:49.0987|INFO|DataEntryFirstStep.DataEntryForm|*****************************************************************
+2015-06-14 15:34:49.8019|INFO|DataEntryFirstStep.DataEntryForm|*****************************************************************
+2015-06-14 15:34:49.8019|INFO|DataEntryFirstStep.DataEntryForm|打开一个新batch
+2015-06-14 15:34:49.8175|INFO|DataEntryFirstStep.DataEntryForm|*****************************************************************
+2015-06-14 15:34:49.8175|INFO|DataEntryFirstStep.DataEntryForm|总页数:	2
+2015-06-14 15:35:19.5507|INFO|DataEntryFirstStep.DataEntryForm|*****************************************************************
+2015-06-14 15:35:19.5664|INFO|DataEntryFirstStep.DataEntryForm|继续上次batch
+2015-06-14 15:35:19.5664|INFO|DataEntryFirstStep.DataEntryForm|*****************************************************************
+2015-06-14 15:35:20.4570|INFO|DataEntryFirstStep.DataEntryForm|*****************************************************************
+2015-06-14 15:35:20.4570|INFO|DataEntryFirstStep.DataEntryForm|打开一个新batch
+2015-06-14 15:35:20.4570|INFO|DataEntryFirstStep.DataEntryForm|*****************************************************************
+2015-06-14 15:35:20.4570|INFO|DataEntryFirstStep.DataEntryForm|总页数:	2
+2015-06-14 15:42:35.0358|INFO|DataEntryFirstStep.DataEntryForm|*****************************************************************
+2015-06-14 15:42:35.0449|INFO|DataEntryFirstStep.DataEntryForm|继续上次batch
+2015-06-14 15:42:35.0449|INFO|DataEntryFirstStep.DataEntryForm|*****************************************************************
+2015-06-14 15:42:35.8037|INFO|DataEntryFirstStep.DataEntryForm|*****************************************************************
+2015-06-14 15:42:35.8037|INFO|DataEntryFirstStep.DataEntryForm|打开一个新batch
+2015-06-14 15:42:35.8037|INFO|DataEntryFirstStep.DataEntryForm|*****************************************************************
+2015-06-14 15:42:35.8097|INFO|DataEntryFirstStep.DataEntryForm|总页数:	2
+2015-06-14 15:49:09.4982|INFO|DataEntryFirstStep.DataEntryForm|*****************************************************************
+2015-06-14 15:49:09.5137|INFO|DataEntryFirstStep.DataEntryForm|打开一个新batch
+2015-06-14 15:49:09.5137|INFO|DataEntryFirstStep.DataEntryForm|*****************************************************************
+2015-06-14 15:49:09.6387|INFO|DataEntryFirstStep.DataEntryForm|总页数:	2
+2015-06-14 15:50:02.8204|INFO|DataEntryFirstStep.DataEntryForm|*****************************************************************
+2015-06-14 15:50:02.8360|INFO|DataEntryFirstStep.DataEntryForm|继续上次batch
+2015-06-14 15:50:02.8360|INFO|DataEntryFirstStep.DataEntryForm|*****************************************************************
+2015-06-14 15:50:03.6329|INFO|DataEntryFirstStep.DataEntryForm|*****************************************************************
+2015-06-14 15:50:03.6485|INFO|DataEntryFirstStep.DataEntryForm|打开一个新batch
+2015-06-14 15:50:03.6485|INFO|DataEntryFirstStep.DataEntryForm|*****************************************************************
+2015-06-14 15:50:03.6485|INFO|DataEntryFirstStep.DataEntryForm|总页数:	2
+2015-06-14 15:50:35.6785|INFO|DataEntryFirstStep.DataEntryForm|*****************************************************************
+2015-06-14 15:50:35.6941|INFO|DataEntryFirstStep.DataEntryForm|继续上次batch
+2015-06-14 15:50:35.6941|INFO|DataEntryFirstStep.DataEntryForm|*****************************************************************
+2015-06-14 15:50:36.5534|INFO|DataEntryFirstStep.DataEntryForm|*****************************************************************
+2015-06-14 15:50:36.5534|INFO|DataEntryFirstStep.DataEntryForm|打开一个新batch
+2015-06-14 15:50:36.5534|INFO|DataEntryFirstStep.DataEntryForm|*****************************************************************
+2015-06-14 15:50:36.5534|INFO|DataEntryFirstStep.DataEntryForm|总页数:	2
+2015-06-14 15:52:34.3183|INFO|DataEntryFirstStep.DataEntryForm|*****************************************************************
+2015-06-14 15:52:34.3338|INFO|DataEntryFirstStep.DataEntryForm|继续上次batch
+2015-06-14 15:52:34.3338|INFO|DataEntryFirstStep.DataEntryForm|*****************************************************************
+2015-06-14 15:52:35.0059|INFO|DataEntryFirstStep.DataEntryForm|*****************************************************************
+2015-06-14 15:52:35.0059|INFO|DataEntryFirstStep.DataEntryForm|打开一个新batch
+2015-06-14 15:52:35.0059|INFO|DataEntryFirstStep.DataEntryForm|*****************************************************************
+2015-06-14 15:52:35.0059|INFO|DataEntryFirstStep.DataEntryForm|总页数:	2
+2015-06-14 15:59:42.5945|INFO|DataEntryFirstStep.DataEntryForm|*****************************************************************
+2015-06-14 15:59:42.5945|INFO|DataEntryFirstStep.DataEntryForm|继续上次batch
+2015-06-14 15:59:42.5945|INFO|DataEntryFirstStep.DataEntryForm|*****************************************************************
+2015-06-14 15:59:43.3292|INFO|DataEntryFirstStep.DataEntryForm|*****************************************************************
+2015-06-14 15:59:43.3292|INFO|DataEntryFirstStep.DataEntryForm|打开一个新batch
+2015-06-14 15:59:43.3292|INFO|DataEntryFirstStep.DataEntryForm|*****************************************************************
+2015-06-14 15:59:43.3292|INFO|DataEntryFirstStep.DataEntryForm|总页数:	2
+2015-06-14 16:04:41.6118|INFO|DataEntryFirstStep.DataEntryForm|*****************************************************************
+2015-06-14 16:04:41.6118|INFO|DataEntryFirstStep.DataEntryForm|打开一个新batch
+2015-06-14 16:04:41.6118|INFO|DataEntryFirstStep.DataEntryForm|*****************************************************************
+2015-06-14 16:04:41.6587|INFO|DataEntryFirstStep.DataEntryForm|总页数:	2
+2015-06-14 16:09:51.4131|INFO|DataEntryFirstStep.DataEntryForm|*****************************************************************
+2015-06-14 16:09:51.4288|INFO|DataEntryFirstStep.DataEntryForm|打开一个新batch
+2015-06-14 16:09:51.4288|INFO|DataEntryFirstStep.DataEntryForm|*****************************************************************
+2015-06-14 16:09:51.4913|INFO|DataEntryFirstStep.DataEntryForm|总页数:	3
+2015-06-14 16:20:52.4152|INFO|DataEntryFirstStep.DataEntryForm|*****************************************************************
+2015-06-14 16:20:52.4309|INFO|DataEntryFirstStep.DataEntryForm|继续上次batch
+2015-06-14 16:20:52.4309|INFO|DataEntryFirstStep.DataEntryForm|*****************************************************************
+2015-06-14 16:20:53.1966|INFO|DataEntryFirstStep.DataEntryForm|*****************************************************************
+2015-06-14 16:20:53.1966|INFO|DataEntryFirstStep.DataEntryForm|打开一个新batch
+2015-06-14 16:20:53.1966|INFO|DataEntryFirstStep.DataEntryForm|*****************************************************************
+2015-06-14 16:20:53.1966|INFO|DataEntryFirstStep.DataEntryForm|总页数:	3
+2015-06-14 16:25:30.8927|INFO|DataEntryFirstStep.DataEntryForm|*****************************************************************
+2015-06-14 16:25:30.9083|INFO|DataEntryFirstStep.DataEntryForm|打开一个新batch
+2015-06-14 16:25:30.9083|INFO|DataEntryFirstStep.DataEntryForm|*****************************************************************
+2015-06-14 16:25:30.9552|INFO|DataEntryFirstStep.DataEntryForm|总页数:	2
+2015-06-14 16:26:57.0825|INFO|DataEntryFirstStep.DataEntryForm|*****************************************************************
+2015-06-14 16:26:57.0825|INFO|DataEntryFirstStep.DataEntryForm|打开一个新batch
+2015-06-14 16:26:57.0825|INFO|DataEntryFirstStep.DataEntryForm|*****************************************************************
+2015-06-14 16:26:57.0981|INFO|DataEntryFirstStep.DataEntryForm|总页数:	5
+2015-06-14 16:28:46.9578|INFO|DataEntryFirstStep.DataEntryForm|*****************************************************************
+2015-06-14 16:28:46.9668|INFO|DataEntryFirstStep.DataEntryForm|打开一个新batch
+2015-06-14 16:28:46.9668|INFO|DataEntryFirstStep.DataEntryForm|*****************************************************************
+2015-06-14 16:28:46.9668|INFO|DataEntryFirstStep.DataEntryForm|总页数:	0
+2015-06-14 16:29:02.8480|INFO|DataEntryFirstStep.DataEntryForm|*****************************************************************
+2015-06-14 16:29:02.8480|INFO|DataEntryFirstStep.DataEntryForm|打开一个新batch
+2015-06-14 16:29:02.8480|INFO|DataEntryFirstStep.DataEntryForm|*****************************************************************
+2015-06-14 16:29:02.9105|INFO|DataEntryFirstStep.DataEntryForm|总页数:	2
+2015-06-14 16:36:10.1038|INFO|DataEntryFirstStep.DataEntryForm|*****************************************************************
+2015-06-14 16:36:10.1195|INFO|DataEntryFirstStep.DataEntryForm|继续上次batch
+2015-06-14 16:36:10.1195|INFO|DataEntryFirstStep.DataEntryForm|*****************************************************************
+2015-06-14 16:36:13.3075|INFO|DataEntryFirstStep.DataEntryForm|总页数:	2
+2015-06-14 16:38:02.4645|INFO|DataEntryFirstStep.DataEntryForm|*****************************************************************
+2015-06-14 16:38:02.4645|INFO|DataEntryFirstStep.DataEntryForm|打开一个新batch
+2015-06-14 16:38:02.4645|INFO|DataEntryFirstStep.DataEntryForm|*****************************************************************
+2015-06-14 16:38:02.4645|INFO|DataEntryFirstStep.DataEntryForm|总页数:	2
+2015-06-14 16:41:28.7240|INFO|DataEntryFirstStep.DataEntryForm|*****************************************************************
+2015-06-14 16:41:28.7396|INFO|DataEntryFirstStep.DataEntryForm|打开一个新batch
+2015-06-14 16:41:28.7396|INFO|DataEntryFirstStep.DataEntryForm|*****************************************************************
+2015-06-14 16:41:28.7396|INFO|DataEntryFirstStep.DataEntryForm|总页数:	2
+2015-06-14 16:42:56.9428|INFO|DataEntryFirstStep.DataEntryForm|*****************************************************************
+2015-06-14 16:42:56.9584|INFO|DataEntryFirstStep.DataEntryForm|打开一个新batch
+2015-06-14 16:42:56.9584|INFO|DataEntryFirstStep.DataEntryForm|*****************************************************************
+2015-06-14 16:42:56.9584|INFO|DataEntryFirstStep.DataEntryForm|总页数:	2

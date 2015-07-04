@@ -1,0 +1,873 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<doc>
+  <assembly>
+    <name>Atalasoft.DotImage.Annotate</name>
+  </assembly>
+  <members>
+    <member name="T:Atalasoft.Annotate.UI.AnnotatePrintDocument">
+      <summary> This control derives from DotImage <STRONG>ImagePrintDocument</STRONG> and is used to print images with
+            annotations. </summary>
+    </member>
+    <member name="M:Atalasoft.Annotate.UI.AnnotatePrintDocument.#ctor">
+      <summary> Creates a new instance of <STRONG>AnnotatePrintDocument</STRONG>. </summary>
+    </member>
+    <member name="M:Atalasoft.Annotate.UI.AnnotatePrintDocument.#ctor(Atalasoft.Annotate.UI.AnnotationController,Atalasoft.Imaging.AtalaImage)">
+      <summary> Creates a new instance of <STRONG>AnnotatePrintDocument</STRONG> specifying the annotations and image to
+            print. </summary>
+      <param name="annotations"> An <see cref="T:Atalasoft.Annotate.UI.AnnotationController" /> containing the annotations to print. </param>
+      <param name="image"> The image to print. </param>
+    </member>
+    <member name="M:Atalasoft.Annotate.UI.AnnotatePrintDocument.#ctor(Atalasoft.Annotate.UI.AnnotationController,Atalasoft.Imaging.AtalaImage[])">
+      <summary> Creates a new instance of <STRONG>AnnotatePrintDocument</STRONG> specifying the annotations and images to
+            print. </summary>
+      <param name="annotations"> An <see cref="T:Atalasoft.Annotate.UI.AnnotationController" /> containing the annotations to print. </param>
+      <param name="images"> An array of images to print. </param>
+    </member>
+    <member name="M:Atalasoft.Annotate.UI.AnnotatePrintDocument.#ctor(Atalasoft.Annotate.UI.AnnotationController,Atalasoft.Imaging.ImageCollection)">
+      <summary> Creates a new instance of <STRONG>AnnotatePrintDocument</STRONG> specifying the annotations and images for
+            this print job. </summary>
+      <param name="annotations"> An <see cref="T:Atalasoft.Annotate.UI.AnnotationController" /> containing the annotations to print. </param>
+      <param name="images"> An <see cref="T:Atalasoft.Imaging.ImageCollection" /> containing the images to print. </param>
+    </member>
+    <member name="M:Atalasoft.Annotate.UI.AnnotatePrintDocument.#ctor(Atalasoft.Imaging.AtalaImage)">
+      <summary> Creates a new instance of <STRONG>AnnotatePrintDocument</STRONG> specifying the image to print with no
+            annotations. </summary>
+      <param name="image"> The image to print. </param>
+    </member>
+    <member name="M:Atalasoft.Annotate.UI.AnnotatePrintDocument.#ctor(Atalasoft.Imaging.AtalaImage[])">
+      <summary> Creates a new instance of <STRONG>AnnotatePrintDocument</STRONG> specifying the images to print with no
+            annotations. </summary>
+      <param name="images"> An array of images to print. </param>
+    </member>
+    <member name="M:Atalasoft.Annotate.UI.AnnotatePrintDocument.#ctor(Atalasoft.Imaging.ImageCollection)">
+      <summary> Creates a new instance of <STRONG>AnnotatePrintDocument</STRONG> specifying the images to print with no
+            annotations. </summary>
+      <param name="images"> An <see cref="T:Atalasoft.Imaging.ImageCollection" /> containing the images to print. </param>
+    </member>
+    <member name="P:Atalasoft.Annotate.UI.AnnotatePrintDocument.Annotations">
+      <summary> Gets or sets the <see cref="T:Atalasoft.Annotate.UI.AnnotationController" /> which contains all annotations to print. </summary>
+    </member>
+    <member name="M:Atalasoft.Annotate.UI.AnnotatePrintDocument.OnBeginPrint(System.Drawing.Printing.PrintEventArgs)">
+      <summary> Called when printing is about to begin. </summary>
+      <param name="e"> A <STRONG>PrintEventArgs</STRONG> containing information about this print job. </param>
+    </member>
+    <member name="M:Atalasoft.Annotate.UI.AnnotatePrintDocument.OnPrintImage(Atalasoft.Imaging.WinControls.PrintImageEventArgs)">
+      <summary> Called when each image needs to be printed. </summary>
+      <param name="e"> A <see cref="T:Atalasoft.Imaging.WinControls.PrintImageEventArgs" /> containing information needed to print the image. </param>
+    </member>
+    <member name="M:Atalasoft.Annotate.UI.AnnotatePrintDocument.OnPrintPage(System.Drawing.Printing.PrintPageEventArgs)">
+      <summary> Called when a new page needs to be printed. </summary>
+      <param name="e"> A <STRONG>PrintPageEventArgs</STRONG> containing information about this page. </param>
+    </member>
+    <member name="P:Atalasoft.Annotate.UI.AnnotatePrintDocument.Units">
+      <summary> Gets or sets the units of measure used for the annotation data. This is required in order to correctly
+            scale annotations that are not specified in pixels. </summary>
+    </member>
+    <member name="T:Atalasoft.Annotate.UI.AnnotateViewer">
+      <summary> This control derives from DotImage <see cref="T:Atalasoft.Imaging.WinControls.WorkspaceViewer" /> and contains a reference to an <see cref="T:Atalasoft.Annotate.UI.AnnotationController" />. Drop this control onto a form to start creating annotations. </summary>
+    </member>
+    <member name="M:Atalasoft.Annotate.UI.AnnotateViewer.#ctor">
+      <summary> Creates a new instance of <STRONG>AnnotateViewer</STRONG>. </summary>
+    </member>
+    <member name="E:Atalasoft.Annotate.UI.AnnotateViewer.AnnotationClicked"></member>
+    <member name="P:Atalasoft.Annotate.UI.AnnotateViewer.AnnotationConfinement">
+      <summary>
+            Gets or sets the annotation confinement used to keep annotations within a
+            specific area of the control.
+            </summary>
+    </member>
+    <member name="E:Atalasoft.Annotate.UI.AnnotateViewer.AnnotationCreated"></member>
+    <member name="E:Atalasoft.Annotate.UI.AnnotateViewer.AnnotationDeserialization">
+      <summary> Raised after annotation data has been deserialized but before the annotations have been added to the <see cref="T:Atalasoft.Annotate.UI.AnnotationController" />. </summary>
+    </member>
+    <member name="E:Atalasoft.Annotate.UI.AnnotateViewer.AnnotationDoubleClicked"></member>
+    <member name="E:Atalasoft.Annotate.UI.AnnotateViewer.AnnotationMoved"></member>
+    <member name="E:Atalasoft.Annotate.UI.AnnotateViewer.AnnotationMoving"></member>
+    <member name="E:Atalasoft.Annotate.UI.AnnotateViewer.AnnotationResized"></member>
+    <member name="E:Atalasoft.Annotate.UI.AnnotateViewer.AnnotationResizing"></member>
+    <member name="E:Atalasoft.Annotate.UI.AnnotateViewer.AnnotationRotated"></member>
+    <member name="E:Atalasoft.Annotate.UI.AnnotateViewer.AnnotationRotating"></member>
+    <member name="P:Atalasoft.Annotate.UI.AnnotateViewer.Annotations">
+      <summary> Gets the <see cref="T:Atalasoft.Annotate.UI.AnnotationController" /> used by this viewer. </summary>
+    </member>
+    <member name="E:Atalasoft.Annotate.UI.AnnotateViewer.AnnotationSelectionChanged"></member>
+    <member name="M:Atalasoft.Annotate.UI.AnnotateViewer.Burn">
+      <summary> Burns all of the annotations onto the current image or all images if <see cref="P:Atalasoft.Annotate.UI.AnnotateViewer.MultipageAnnotateMode" /> is set to true. </summary>
+    </member>
+    <member name="M:Atalasoft.Annotate.UI.AnnotateViewer.Burn(Atalasoft.Annotate.AnnotationData,Atalasoft.Imaging.AtalaImage)">
+      <summary> Burns an annotation data onto the supplied image or the current image. </summary>
+      <param name="annotation"> The annotation to burn. </param>
+      <param name="image"> The image to burn the annotation onto. If <STRONG>null</STRONG> (<STRONG>Nothing</STRONG> in
+            VB) the current image in the viewer is used. </param>
+      <exception cref="T:System.ArgumentNullException" caption="ArgumentNullException"> Thrown if annotation is null (Nothing in VB). </exception>
+    </member>
+    <member name="M:Atalasoft.Annotate.UI.AnnotateViewer.Burn(Atalasoft.Annotate.AnnotationDataCollection,Atalasoft.Imaging.AtalaImage)">
+      <summary> Burns a collection of <see cref="T:Atalasoft.Annotate.AnnotationData" /> objects onto the supplied image or the current image.
+            </summary>
+      <param name="annotations"> An <see cref="T:Atalasoft.Annotate.AnnotationDataCollection" /> containing the annotations to burn. </param>
+      <param name="image"> The image to burn the annotation onto. If <STRONG>null</STRONG> (<STRONG>Nothing</STRONG> in
+            VB) the current image in the viewer is used. </param>
+      <exception cref="T:System.ArgumentNullException" caption="ArgumentNullException"> Thrown if annotations is null (Nothing in VB). </exception>
+    </member>
+    <member name="M:Atalasoft.Annotate.UI.AnnotateViewer.Burn(Atalasoft.Annotate.UI.AnnotationUI,Atalasoft.Imaging.AtalaImage)">
+      <summary> Burns an annotation onto the supplied image or the current image. </summary>
+      <param name="annotation"> The annotation to burn. </param>
+      <param name="image"> The image to burn the annotation onto. If <STRONG>null </STRONG>(<STRONG>Nothing</STRONG> in
+            VB) the current image in the viewer is used. </param>
+      <exception cref="T:System.ArgumentNullException" caption="ArgumentNullException"> Thrown if annotation is null (Nothing in VB). </exception>
+    </member>
+    <member name="M:Atalasoft.Annotate.UI.AnnotateViewer.Burn(Atalasoft.Annotate.UI.AnnotationUICollection,Atalasoft.Imaging.AtalaImage)">
+      <summary> Burns a collection of <see cref="T:Atalasoft.Annotate.UI.AnnotationUI" /> objects onto the supplied image or the current image.
+            </summary>
+      <param name="annotations"> An <see cref="T:Atalasoft.Annotate.UI.AnnotationUICollection" /> containing the annotations to burn. </param>
+      <param name="image"> The image to burn the annotation onto. If <STRONG>null</STRONG> (<STRONG>Nothing</STRONG> in
+            VB) the current image in the viewer is used. </param>
+      <exception cref="T:System.ArgumentNullException" caption="ArgumentNullException"> Thrown if annotations is null (Nothing in VB). </exception>
+    </member>
+    <member name="M:Atalasoft.Annotate.UI.AnnotateViewer.Burn(Atalasoft.Imaging.AtalaImage)">
+      <summary> Burns all annotations onto the supplied image. </summary>
+      <param name="image"> The image to burn annotations on. </param>
+      <exception cref="T:System.ArgumentNullException" caption="ArgumentNullException"> Thrown if the image is null (Nothing in VB). </exception>
+    </member>
+    <member name="P:Atalasoft.Annotate.UI.AnnotateViewer.Control">
+      <summary> Gets the control that the annotations will be drawn onto. </summary>
+    </member>
+    <member name="E:Atalasoft.Annotate.UI.AnnotateViewer.CurrentLayerChanged"></member>
+    <member name="P:Atalasoft.Annotate.UI.AnnotateViewer.DataImporters">
+      <summary> Returns a collection of <see cref="T:Atalasoft.Annotate.Importers.AnnotationDataImporter" /> used by <see cref="M:Atalasoft.Annotate.UI.AnnotateViewer.GetDataImporter(System.IO.Stream)" />. </summary>
+    </member>
+    <member name="P:Atalasoft.Annotate.UI.AnnotateViewer.DefaultSecurity">
+      <summary>Gets or sets the default security used for new annotations.</summary>
+    </member>
+    <member name="M:Atalasoft.Annotate.UI.AnnotateViewer.Dispose(System.Boolean)">
+      <summary> Releases resources used by the viewer. </summary>
+      <param name="disposing"> Indicates whether this method was called from the Dispose method or the finalizer. </param>
+    </member>
+    <member name="P:Atalasoft.Annotate.UI.AnnotateViewer.DocumentBounds">
+      <summary> Gets the bounding rectangle for this document. </summary>
+    </member>
+    <member name="M:Atalasoft.Annotate.UI.AnnotateViewer.GetDataImporter(System.IO.Stream)">
+      <summary> Returns the <see cref="T:Atalasoft.Annotate.Importers.AnnotationDataImporter" /> for the specified stream. </summary>
+      <param name="stream"> A stream containing the image data with embedded annotations. </param>
+      <returns> An importer for this file or null (Nothing in VB) if an importer cannot be found. </returns>
+      <exception cref="T:System.ArgumentNullException" caption="ArgumentNullException"> Thrown if stream is null (Nothing in VB). </exception>
+    </member>
+    <member name="M:Atalasoft.Annotate.UI.AnnotateViewer.GetImporter(System.IO.Stream)">
+      <summary>
+        <para>Returns an <see cref="T:Atalasoft.Annotate.UI.Importers.AnnotationImporter" /> for the specified stream.</para>
+      </summary>
+      <param name="stream"> A stream containing the image data with embedded annotations. </param>
+      <returns> An importer for this file or null (Nothing in VB) if an importer cannot be found. </returns>
+      <exception cref="T:System.ArgumentNullException" caption="ArgumentNullException"> Thrown if the stream is null (Nothing in VB). </exception>
+    </member>
+    <member name="E:Atalasoft.Annotate.UI.AnnotateViewer.HotSpotClicked"></member>
+    <member name="M:Atalasoft.Annotate.UI.AnnotateViewer.ImportAnnotations(Atalasoft.Annotate.Importers.AnnotationDataImporter,System.Int32)">
+      <summary>
+        <para>Using the provided importer, this method will add annotations into the viewer.</para>
+      </summary>
+      <param name="importer"> The importer to use. </param>
+      <param name="frameIndex"> The frame index to extract annotations from or -1 to extract from all pages.  See
+            <STRONG>Remarks</STRONG> for more information. </param>
+      <exception cref="T:System.ArgumentNullException" caption="ArgumentNullException"> Thrown if the importer is null (Nothing in VB). </exception>
+    </member>
+    <member name="M:Atalasoft.Annotate.UI.AnnotateViewer.ImportAnnotations(Atalasoft.Annotate.UI.Importers.AnnotationImporter,System.Int32)">
+      <summary>
+        <para>Using the provided importer, this method will add annotations into the viewer.</para>
+      </summary>
+      <param name="importer"> The importer to use. </param>
+      <param name="frameIndex"> The frame index to extract annotations from or -1 to extract from all pages.  See
+            <STRONG>Remarks</STRONG> for more information. </param>
+      <exception cref="T:System.ArgumentNullException" caption="ArgumentNullException"> Thrown if the importer is null (Nothing in VB). </exception>
+    </member>
+    <member name="P:Atalasoft.Annotate.UI.AnnotateViewer.Importers">
+      <summary>
+        <para>Gets and sets the <see cref="!:importers collection" /> used by this class.</para>
+        <para>This property is obsolete.  Use the <see cref="P:Atalasoft.Annotate.UI.AnnotateViewer.DataImporters" /> property
+            instead.</para>
+      </summary>
+    </member>
+    <member name="P:Atalasoft.Annotate.UI.AnnotateViewer.InteractMode">
+      <summary>
+            Gets or sets a value specifying the user interactive mode of the
+            <strong>AnnotationController</strong>.
+            </summary>
+    </member>
+    <member name="M:Atalasoft.Annotate.UI.AnnotateViewer.IsInputKey(System.Windows.Forms.Keys)">
+      <summary> Used to determine if the key press is used as an input key of the control. </summary>
+      <param name="keyData"> The key to test. </param>
+      <returns> True if the key is an input key. </returns>
+    </member>
+    <member name="P:Atalasoft.Annotate.UI.AnnotateViewer.KeyBinder">
+      <summary> Gets an <see cref="T:Atalasoft.Annotate.UI.AnnotationKeyBinder" /> used to bind key press events to annotation actions. </summary>
+    </member>
+    <member name="P:Atalasoft.Annotate.UI.AnnotateViewer.MultipageAnnotateMode">
+      <summary> Gets or sets a value indicating whether the <STRONG>AnnotateViewer</STRONG> will automatically add and
+            remove top level <see cref="T:Atalasoft.Annotate.UI.LayerAnnotation" /> to match the number of images in the <see cref="P:Atalasoft.Imaging.WinControls.WorkspaceViewer.Images" /> collection. </summary>
+    </member>
+    <member name="P:Atalasoft.Annotate.UI.AnnotateViewer.MultiSelectKey">
+      <summary>
+            Gets or sets the key held down to select multiple annotations.
+            </summary>
+    </member>
+    <member name="M:Atalasoft.Annotate.UI.AnnotateViewer.OnAnnotationCreated(Atalasoft.Annotate.AnnotationEventArgs)">
+      <summary> Called when the viewer's <see cref="T:Atalasoft.Annotate.UI.AnnotationController" /> raises the <see cref="E:Atalasoft.Annotate.UI.AnnotationController.AnnotationCreated" /> event. </summary>
+      <param name="e"> An <see cref="T:Atalasoft.Annotate.AnnotationEventArgs" /> containing the new annotation. </param>
+    </member>
+    <member name="M:Atalasoft.Annotate.UI.AnnotateViewer.OnAnnotationMoved(Atalasoft.Annotate.AnnotationEventArgs)">
+      <summary> Called when the viewer's <see cref="T:Atalasoft.Annotate.UI.AnnotationController" /> raises the <see cref="E:Atalasoft.Annotate.UI.AnnotationController.Moved" /> event. </summary>
+      <param name="e"> An <see cref="T:Atalasoft.Annotate.AnnotationEventArgs" /> containing the moved annotation. </param>
+    </member>
+    <member name="M:Atalasoft.Annotate.UI.AnnotateViewer.OnAnnotationMoving(Atalasoft.Annotate.AnnotationEventArgs)">
+      <summary> Called when the viewer's <see cref="T:Atalasoft.Annotate.UI.AnnotationController" /> raises the <see cref="E:Atalasoft.Annotate.UI.AnnotationController.Moving" /> event. </summary>
+      <param name="e"> An <see cref="T:Atalasoft.Annotate.AnnotationEventArgs" /> containing the annotation being moved. </param>
+    </member>
+    <member name="M:Atalasoft.Annotate.UI.AnnotateViewer.OnAnnotationResized(Atalasoft.Annotate.AnnotationEventArgs)">
+      <summary> Called when the viewer's <see cref="T:Atalasoft.Annotate.UI.AnnotationController" /> raises the <see cref="E:Atalasoft.Annotate.UI.AnnotationController.Resized" /> event. </summary>
+      <param name="e"> An <see cref="T:Atalasoft.Annotate.AnnotationEventArgs" /> containing the resized annotation. </param>
+    </member>
+    <member name="M:Atalasoft.Annotate.UI.AnnotateViewer.OnAnnotationResizing(Atalasoft.Annotate.AnnotationEventArgs)">
+      <summary> Called when the viewer's <see cref="T:Atalasoft.Annotate.UI.AnnotationController" /> raises the <see cref="E:Atalasoft.Annotate.UI.AnnotationController.Resizing" /> event. </summary>
+      <param name="e"> An <see cref="T:Atalasoft.Annotate.AnnotationEventArgs" /> containing the annotation being resized. </param>
+    </member>
+    <member name="M:Atalasoft.Annotate.UI.AnnotateViewer.OnAnnotationRotated(Atalasoft.Annotate.AnnotationEventArgs)">
+      <summary> Called when the viewer's <see cref="T:Atalasoft.Annotate.UI.AnnotationController" /> raises the <see cref="E:Atalasoft.Annotate.UI.AnnotationController.Rotated" /> event. </summary>
+      <param name="e"> An <see cref="T:Atalasoft.Annotate.AnnotationEventArgs" /> containing the rotated annotation. </param>
+    </member>
+    <member name="M:Atalasoft.Annotate.UI.AnnotateViewer.OnAnnotationRotating(Atalasoft.Annotate.AnnotationEventArgs)">
+      <summary> Called when the viewer's <see cref="T:Atalasoft.Annotate.UI.AnnotationController" /> raises the <see cref="E:Atalasoft.Annotate.UI.AnnotationController.Rotating" /> event. </summary>
+      <param name="e"> An <see cref="T:Atalasoft.Annotate.AnnotationEventArgs" /> containing the annotation being rotated. </param>
+    </member>
+    <member name="M:Atalasoft.Annotate.UI.AnnotateViewer.OnAnnotationSelectionChanged(System.EventArgs)">
+      <summary> Called when the viewer's <see cref="T:Atalasoft.Annotate.UI.AnnotationController" /> raises the <see cref="E:Atalasoft.Annotate.UI.AnnotationController.SelectionChanged" /> event. </summary>
+      <param name="e"> An <STRONG>EventArgs</STRONG> for this event. </param>
+    </member>
+    <member name="M:Atalasoft.Annotate.UI.AnnotateViewer.OnCurrentLayerChanged(System.EventArgs)">
+      <summary> Called when the viewer's <see cref="T:Atalasoft.Annotate.UI.AnnotationController" /> raises the <see cref="E:Atalasoft.Annotate.UI.AnnotationController.CurrentLayerChanged" /> event. </summary>
+      <param name="e"> An <STRONG>EventArgs</STRONG> for this event. </param>
+    </member>
+    <member name="M:Atalasoft.Annotate.UI.AnnotateViewer.OnImageChanged(Atalasoft.Imaging.ImageEventArgs)"></member>
+    <member name="M:Atalasoft.Annotate.UI.AnnotateViewer.OnZoomChanged(System.EventArgs)"></member>
+    <member name="M:Atalasoft.Annotate.UI.AnnotateViewer.Open(System.IO.Stream,System.Int32,System.Boolean)">
+      <summary> This method will open an image from a viewer and optionally load the XMP annotations embedded in that
+            image. </summary>
+      <param name="stream"> A stream containing the image file. </param>
+      <param name="frameIndex"> A frame index to load, or -1 to load all frames. </param>
+      <param name="loadAnnotations"> True to load XMP annotations embedded into the image file. </param>
+      <exception cref="T:System.ArgumentNullException" caption="ArgumentNullException"> Thrown if the stream is null (Nothing in VB). </exception>
+      <exception cref="T:System.ArgumentOutOfRangeException" caption="ArgumentOutOfRangeException"> Thrown if the frameIndex is invalid for the image. </exception>
+    </member>
+    <member name="M:Atalasoft.Annotate.UI.AnnotateViewer.Open(System.String,System.Int32,System.Boolean)">
+      <summary> This method will open an image from a filename and optionally load embedded XMP annotations. </summary>
+      <param name="fileName"> The full path and filename of the image to open. </param>
+      <param name="frameIndex"> The frame index to load, or -1 to load all frames. </param>
+      <param name="loadAnnotations"> True to load embedded XMP annotations. </param>
+      <exception cref="T:System.ArgumentNullException" caption="ArgumentNullException"> Thrown if the fileName is null (Nothing in VB). </exception>
+      <exception cref="T:System.IO.FileNotFoundException" caption="FileNotFoundException"> Thrown if the fileName cannot be found. </exception>
+      <exception cref="T:System.ArgumentOutOfRangeException" caption="ArgumentOutOfRangeException"> Thrown if the frameIndex is invalid for the image. </exception>
+    </member>
+    <member name="P:Atalasoft.Annotate.UI.AnnotateViewer.Resolution">
+      <summary> Gets the horizontal and vertical resolution of the viewer. </summary>
+    </member>
+    <member name="M:Atalasoft.Annotate.UI.AnnotateViewer.RotateDocument(Atalasoft.Annotate.DocumentRotation)">
+      <summary> Rotates the document by the given <STRONG>DocumentRotation</STRONG>. </summary>
+      <param name="rotation"> The amount of rotation to apply. </param>
+    </member>
+    <member name="M:Atalasoft.Annotate.UI.AnnotateViewer.RotateDocument(Atalasoft.Annotate.DocumentRotation,Atalasoft.Annotate.UI.LayerAnnotation)">
+      <summary> Rotates the specified LayerAnnotation by the given <STRONG>DocumentRotation</STRONG></summary>
+      <param name="rotation"> The rotation to apply. </param>
+      <param name="layer"> The layer to rotate. </param>
+      <exception> Thrown if the layer is null (Nothing in VB). </exception>
+    </member>
+    <member name="M:Atalasoft.Annotate.UI.AnnotateViewer.RotateDocument(Atalasoft.Annotate.DocumentRotation,System.Int32)">
+      <summary> Rotates the document at the given layer index by the given <STRONG>DocumentRotation</STRONG>. </summary>
+      <param name="rotation"> The rotation to apply. </param>
+      <param name="layerIndex"> The index of the layer to rotate. </param>
+      <exception> Thrown if hte layerIndex is invalid for the Layers collection. </exception>
+    </member>
+    <member name="P:Atalasoft.Annotate.UI.AnnotateViewer.RotationSnapInterval"></member>
+    <member name="P:Atalasoft.Annotate.UI.AnnotateViewer.RotationSnapThreshold"></member>
+    <member name="M:Atalasoft.Annotate.UI.AnnotateViewer.Save(System.IO.Stream,Atalasoft.Imaging.Codec.IAnnotationEncoder,System.Int32,System.Boolean)">
+      <summary> Saves an image to a stream and optionally stores annotation data embedded as XMP into the file. </summary>
+      <param name="stream"> The stream to save this image into. </param>
+      <param name="encoder"> An image encoder implementing the <STRONG>IAnnotationEncoder</STRONG> interface.  Currently
+            this is only supported by the <STRONG>JpegEncoder</STRONG> and <STRONG>TiffEncoder</STRONG>. </param>
+      <param name="frameIndex"> The frame index to save or -1 to save all frames. </param>
+      <param name="saveAnnotations"> True to save the annotations embedded as XMP data. </param>
+      <exception cref="T:System.ArgumentNullException" caption="ArgumentNullException"> Thrown if the stream or encoder is null (Nothing in VB). </exception>
+      <exception cref="T:System.ArgumentOutOfRangeException" caption="ArgumentOutOfRangeException"> Thrown if the frameIndex is invalid for the image collection. </exception>
+    </member>
+    <member name="M:Atalasoft.Annotate.UI.AnnotateViewer.Save(System.String,Atalasoft.Imaging.Codec.IAnnotationEncoder,System.Int32,System.Boolean)">
+      <summary> Saves an image to a file and optionally stores annotation data embedded as XMP into the file. </summary>
+      <param name="fileName"> The filename for this image. </param>
+      <param name="encoder"> An image encoder implementing the <STRONG>IAnnotationEncoder</STRONG> interface.  Currently
+            this is only supported by the <STRONG>JpegEncoder</STRONG> and <STRONG>TiffEncoder</STRONG>. </param>
+      <param name="frameIndex"> The frame index to save or -1 to save all frames. </param>
+      <param name="saveAnnotations"> True to save the annotations embedded as XMP data. </param>
+      <exception cref="T:System.ArgumentNullException" caption="ArgumentNullException"> Thrown if the fileName or encoder is null (Nothing in VB). </exception>
+      <exception cref="T:System.ArgumentOutOfRangeException" caption="ArgumentOutOfRangeException"> Thrown if the frameIndex is invalid for the image collection. </exception>
+    </member>
+    <member name="M:Atalasoft.Annotate.UI.AnnotateViewer.SetInputKeys(System.Windows.Forms.Keys[])">
+      <summary> Use this method to allow special keys to raise the <STRONG>KeyDown</STRONG> and <STRONG>KeyUp</STRONG>
+            events. </summary>
+      <param name="keys"> An array of Keys to use. </param>
+    </member>
+    <member name="P:Atalasoft.Annotate.UI.AnnotateViewer.SmoothingMode">
+      <summary>
+            Gets or sets the smoothing mode used when drawing annotations.
+            </summary>
+    </member>
+    <member name="P:Atalasoft.Annotate.UI.AnnotateViewer.ToolTip">
+      <summary>Gets or sets the tooltip control used for annotation tooltips.</summary>
+    </member>
+    <member name="P:Atalasoft.Annotate.UI.AnnotateViewer.Transform">
+      <summary> Gets the transformation matrix for this viewer. </summary>
+    </member>
+    <member name="P:Atalasoft.Annotate.UI.AnnotateViewer.UndoManager">
+      <summary>Gets the AnnotationUndoManager used by the controller.</summary>
+    </member>
+    <member name="P:Atalasoft.Annotate.UI.AnnotateViewer.Units">
+      <summary>
+            Gets or sets the units of measure used for the annotation Location and
+            Size.
+            </summary>
+    </member>
+    <member name="T:Atalasoft.Annotate.UI.AnnotationSaveOptions">
+      <summary> This class provides options used when saving annotations with the <see cref="T:Atalasoft.Annotate.UI.DocumentAnnotationViewer" />.
+            </summary>
+    </member>
+    <member name="M:Atalasoft.Annotate.UI.AnnotationSaveOptions.#ctor">
+      <summary> Creates a new instance of <STRONG>AnnotationSaveOptions</STRONG>. </summary>
+    </member>
+    <member name="M:Atalasoft.Annotate.UI.AnnotationSaveOptions.#ctor(System.Boolean,Atalasoft.Annotate.AnnotationDataFormat)">
+      <summary> Creates a new instance of <STRONG>AnnotationSaveOptions</STRONG> specifying whether to embed the
+            annotations into the image and the annotation format to use for TIFF. </summary>
+      <param name="embedAnnotations"> Indicates whether the annotations should be embedded into the image. </param>
+      <param name="tiffAnnotationFormat"> Indicates whether annotations embedded into TIFF images with be WANG or XMP.
+            </param>
+    </member>
+    <member name="P:Atalasoft.Annotate.UI.AnnotationSaveOptions.EmbedAnnotations">
+      <summary> Gets or sets a value indicating whether annotations will be embedded into the image when saved as JPEG,
+            TIFF of PDF. </summary>
+    </member>
+    <member name="P:Atalasoft.Annotate.UI.AnnotationSaveOptions.TiffAnnotationFormat">
+      <summary> Gets or sets a value indicating whether annotations will be embedded as XMP or WANG in TIFF files.
+            </summary>
+    </member>
+    <member name="T:Atalasoft.Annotate.UI.AnnotationSaveOptionsHandler">
+      <summary> This delegate is used to provide annotation save options to the <see cref="T:Atalasoft.Annotate.UI.DocumentAnnotationViewer" />.
+            </summary>
+      <param name="viewer"> The viewer where annotations are being saved. </param>
+      <param name="options"> An <see cref="T:Atalasoft.Annotate.UI.AnnotationSaveOptions" /> to specify the save options. </param>
+    </member>
+    <member name="T:Atalasoft.Annotate.UI.CachedImageAnnotationEventArgs">
+      <summary> This class is used with the <STRONG>UndoPerformed</STRONG> and <STRONG>RedoPerformed</STRONG> events of
+            <see cref="T:Atalasoft.Annotate.UI.CachedImageAnnotationUndoManager" />. </summary>
+    </member>
+    <member name="M:Atalasoft.Annotate.UI.CachedImageAnnotationEventArgs.#ctor(System.Boolean)">
+      <summary> Creates a new instance of <STRONG>CachedImageAnnotationEventArgs</STRONG>. </summary>
+      <param name="isImageChange"> Indicates if the event is due to an image change. </param>
+    </member>
+    <member name="P:Atalasoft.Annotate.UI.CachedImageAnnotationEventArgs.IsImageChange">
+      <summary> Gets a value indicating whether the undo/redo change affected the image. </summary>
+    </member>
+    <member name="T:Atalasoft.Annotate.UI.CachedImageAnnotationUndoManager">
+      <summary> This class manages the undo and redo features of <see cref="T:Atalasoft.Annotate.UI.DocumentAnnotationViewer" />. </summary>
+    </member>
+    <member name="M:Atalasoft.Annotate.UI.CachedImageAnnotationUndoManager.#ctor(Atalasoft.Annotate.UI.AnnotationUndoManager)">
+      <summary> Creates a new instance of <STRONG>CachedImageAnnotationUndoManager</STRONG>. </summary>
+      <param name="annotationUndoManager"> The <STRONG>AnnotationUndoManager</STRONG> used by the
+            <STRONG>AnnotationController</STRONG> that contains the annotations. </param>
+    </member>
+    <member name="M:Atalasoft.Annotate.UI.CachedImageAnnotationUndoManager.GetRedoCount"></member>
+    <member name="M:Atalasoft.Annotate.UI.CachedImageAnnotationUndoManager.GetUndoCount"></member>
+    <member name="M:Atalasoft.Annotate.UI.CachedImageAnnotationUndoManager.OnAddUndo(Atalasoft.Imaging.AtalaImage,System.String)"></member>
+    <member name="M:Atalasoft.Annotate.UI.CachedImageAnnotationUndoManager.OnClear"></member>
+    <member name="M:Atalasoft.Annotate.UI.CachedImageAnnotationUndoManager.OnGetRedoDescriptions"></member>
+    <member name="M:Atalasoft.Annotate.UI.CachedImageAnnotationUndoManager.OnGetUndoDescriptions"></member>
+    <member name="M:Atalasoft.Annotate.UI.CachedImageAnnotationUndoManager.OnRedo"></member>
+    <member name="M:Atalasoft.Annotate.UI.CachedImageAnnotationUndoManager.OnRedoPerformed(System.EventArgs)"></member>
+    <member name="M:Atalasoft.Annotate.UI.CachedImageAnnotationUndoManager.OnUndo(Atalasoft.Imaging.AtalaImage)"></member>
+    <member name="M:Atalasoft.Annotate.UI.CachedImageAnnotationUndoManager.OnUndoLevelsChanged(System.EventArgs)"></member>
+    <member name="M:Atalasoft.Annotate.UI.CachedImageAnnotationUndoManager.OnUndoPerformed(System.EventArgs)"></member>
+    <member name="T:Atalasoft.Annotate.UI.CreatePdfAnnotationDataExporterEventArgs">
+      <summary>This class provides information for events that create Pdf AnnotationData Exporters.</summary>
+    </member>
+    <member name="M:Atalasoft.Annotate.UI.CreatePdfAnnotationDataExporterEventArgs.#ctor">
+      <summary>Initializes a new instance of the <see cref="T:Atalasoft.Annotate.UI.CreatePdfAnnotationDataExporterEventArgs" /> class</summary>
+    </member>
+    <member name="P:Atalasoft.Annotate.UI.CreatePdfAnnotationDataExporterEventArgs.Layers">
+      <summary> The annotations that are going to be stored in the PDF </summary>
+    </member>
+    <member name="T:Atalasoft.Annotate.UI.CreatePdfAnnotationDataExporterHandler">
+      <summary>This delegate is used when viewers need to create a PdfAnnotationDataExporter.</summary>
+      <param name="sender">The object sending the event.</param>
+      <param name="e">An event args with more information about the event
+            </param>
+    </member>
+    <member name="T:Atalasoft.Annotate.UI.DocumentAnnotationViewer">
+      <summary>
+        <para>The <STRONG>DocumentAnnotationViewer</STRONG> control simplifies the process of synchronizing a <see cref="T:Atalasoft.Imaging.WinControls.ThumbnailView" /> with an <see cref="T:Atalasoft.Annotate.UI.AnnotateViewer" />.</para>
+        <para>The control's <see cref="T:Atalasoft.Imaging.WinControls.ThumbnailView" /> can be docked on any side using the <see cref="P:Atalasoft.Imaging.WinControls.DocumentViewer.ThumbnailDockStyle" /> property.  A <see cref="P:Atalasoft.Imaging.WinControls.DocumentViewer.Separator" /> can be enabled,
+            allowing the end user to resize the <see cref="T:Atalasoft.Imaging.WinControls.ThumbnailView" /> and the <see cref="T:Atalasoft.Annotate.UI.AnnotateViewer" /> will fill the
+            rest of the control.</para>
+      </summary>
+    </member>
+    <member name="M:Atalasoft.Annotate.UI.DocumentAnnotationViewer.#ctor">
+      <summary> Creates a new instance of <STRONG>DocumentAnnotationViewer</STRONG>. </summary>
+    </member>
+    <member name="P:Atalasoft.Annotate.UI.DocumentAnnotationViewer.AnnotationDataProvider">
+      <summary>
+        <para>Gets or sets the provider class used for loading annotation data.</para>
+        <para>If this property is <STRONG>null</STRONG> (<STRONG>Nothing </STRONG>in VB) we will automatically extract
+            embedded annotation data from JPEG, TIFF and PDF files.</para>
+      </summary>
+    </member>
+    <member name="P:Atalasoft.Annotate.UI.DocumentAnnotationViewer.Annotations">
+      <summary> Gets the <see cref="T:Atalasoft.Annotate.UI.AnnotationController" /> used by the <STRONG>DocumentAnnotationViewer</STRONG>.
+            </summary>
+    </member>
+    <member name="P:Atalasoft.Annotate.UI.DocumentAnnotationViewer.AnnotationSaveOptionsHandler">
+      <summary>
+        <para>Gets or sets the delegate used for annotation saving options.</para>
+        <para>If this property is <STRONG>null</STRONG> (<STRONG>Nothing</STRONG> in VB) the annotations will be embedded
+            into JPEG, TIFF and PDF files.</para>
+      </summary>
+    </member>
+    <member name="E:Atalasoft.Annotate.UI.DocumentAnnotationViewer.CreatePdfAnnotationDataExporter">
+      <summary> Add a handler to this event if you want to create your own PdfAnnotationDataExporter object for use when
+            saving annotations into a PDF.  You may want to do this if you have custom PDF export policies that you want to
+            install in it. </summary>
+    </member>
+    <member name="M:Atalasoft.Annotate.UI.DocumentAnnotationViewer.Dispose(System.Boolean)">
+      <summary>Releases the unmanaged resources used by the <see cref="T:Atalasoft.Annotate.UI.DocumentAnnotationViewer" /> and optionally releases the managed resources</summary>
+      <param name="disposing">True to release both managed and unmanaged resources; false to release only unmanaged resources</param>
+    </member>
+    <member name="M:Atalasoft.Annotate.UI.DocumentAnnotationViewer.LoadAnnotationData(System.IO.Stream,System.Int32,System.Runtime.Serialization.IFormatter,System.Boolean)">
+      <summary> Loads annotation data into the viewer for the specified page. </summary>
+      <param name="stream"> A stream containing the annotation data. </param>
+      <param name="frameIndex"> The index of the page the data will be loaded into.  Pass -1 to load data for all pages. 
+            If a specific frame is specified, the annotation data must contain only one layer or have enough layers that
+            frameIndex is a valid layer index. </param>
+      <param name="annotationDataFormatter"> The formatter used to read the annotation data from the stream. </param>
+      <param name="overwriteExistingAnnotations">
+        <STRONG>True</STRONG> to replace any existing annotations with those
+            being loaded.  If <STRONG>false</STRONG>, the annotations will be inserted into the existing layer. </param>
+      <exception cref="T:System.InvalidOperationException"> Thrown if there are no images loaded. </exception>
+      <exception cref="T:System.ArgumentNullException"> Thrown if the stream is null (Nothing in VB). </exception>
+      <exception cref="T:System.ArgumentException"> Thrown if the stream does not have read access. </exception>
+      <exception cref="T:System.ArgumentOutOfRangeException"> Thrown if the frame index is invalid. </exception>
+    </member>
+    <member name="M:Atalasoft.Annotate.UI.DocumentAnnotationViewer.OnClear"></member>
+    <member name="M:Atalasoft.Annotate.UI.DocumentAnnotationViewer.OnImageInserted(Atalasoft.Imaging.WinControls.ImageInsertEventArgs)"></member>
+    <member name="M:Atalasoft.Annotate.UI.DocumentAnnotationViewer.OnOpenDocument(Atalasoft.Imaging.WinControls.OpenDocumentEventArgs)"></member>
+    <member name="M:Atalasoft.Annotate.UI.DocumentAnnotationViewer.OnPrintingPage(Atalasoft.Imaging.WinControls.PrintImageEventArgs)"></member>
+    <member name="M:Atalasoft.Annotate.UI.DocumentAnnotationViewer.OnSelectedIndexChanged(System.EventArgs)"></member>
+    <member name="M:Atalasoft.Annotate.UI.DocumentAnnotationViewer.RefreshCurrentImageThumbnail">
+      <summary>
+        <para>This method will force the <STRONG>DocumentAnnotationViewer</STRONG> to refresh the thumbnail for
+            the current image.</para>
+      </summary>
+    </member>
+    <member name="M:Atalasoft.Annotate.UI.DocumentAnnotationViewer.RotateDocument(Atalasoft.Annotate.DocumentRotation)">
+      <summary> Rotates the current image and its annotations. </summary>
+      <param name="rotation"> The rotation to perform. </param>
+    </member>
+    <member name="M:Atalasoft.Annotate.UI.DocumentAnnotationViewer.Save(System.IO.Stream,Atalasoft.Imaging.Codec.ImageEncoder)">
+      <summary>
+        <para>Saves the current image for single page encoders or all pages for multipage encoders.</para>
+        <para>By default, annotations will be embedded into JPEG, TIFF and PDF files.  Set the <see cref="P:Atalasoft.Annotate.UI.DocumentAnnotationViewer.AnnotationSaveOptionsHandler" /> property to control the annotation save
+            behavior.</para>
+      </summary>
+      <param name="stream"> The stream to save the image(s) into. </param>
+      <param name="encoder"> The encoder to use for the image(s). </param>
+      <exception cref="T:System.ArgumentNullException"> Thrown if the stream is null (Nothing in VB). </exception>
+      <exception cref="T:System.ArgumentException"> Thrown if the encoder is a MultiFramedImageEncoder and the stream is not seekable. </exception>
+    </member>
+    <member name="M:Atalasoft.Annotate.UI.DocumentAnnotationViewer.SaveAnnotationData(System.IO.Stream,System.Int32,System.Runtime.Serialization.IFormatter)">
+      <summary> This method will save the annotations into the provided stream. </summary>
+      <param name="stream"> The stream to save the annotations into. </param>
+      <param name="frameIndex"> The frame index to save.  Specify -1 to save all frames together. </param>
+      <param name="annotationDataFormatter"> The formatter used to save the annotations.  Pass in <STRONG>null</STRONG>
+            (<STRONG>Nothing</STRONG> in VB) to use the <see cref="T:Atalasoft.Annotate.Formatters.XmpFormatter" />. </param>
+      <exception cref="T:System.ArgumentNullException"> Thrown if the stream is null (Nothing in VB). </exception>
+      <exception cref="T:System.ArgumentException"> Thrown if the stream does not have read access. </exception>
+    </member>
+    <member name="T:Atalasoft.Annotate.UI.EmbeddedAnnotationDataProvider">
+      <summary> This class is used by the <see cref="T:Atalasoft.Annotate.UI.DocumentAnnotationViewer" /> to extract annotation data from JPEG,
+            TIFF and PDF files. </summary>
+    </member>
+    <member name="M:Atalasoft.Annotate.UI.EmbeddedAnnotationDataProvider.#ctor(System.Drawing.PointF)">
+      <summary> Creates a new instance of <STRONG>EmbeddedAnnotationDataProvider</STRONG>. </summary>
+      <param name="viewerResolution"> The resolution of the image viewer. </param>
+    </member>
+    <member name="M:Atalasoft.Annotate.UI.EmbeddedAnnotationDataProvider.GetLayerData(System.Int32)"></member>
+    <member name="M:Atalasoft.Annotate.UI.EmbeddedAnnotationDataProvider.PrepareForExtraction(Atalasoft.Imaging.AtalaImage)"></member>
+    <member name="M:Atalasoft.Annotate.UI.EmbeddedAnnotationDataProvider.PrepareForExtraction(Atalasoft.Imaging.RandomAccessImageSource,System.Int32)"></member>
+    <member name="M:Atalasoft.Annotate.UI.EmbeddedAnnotationDataProvider.PrepareForExtraction(System.IO.Stream,System.Int32)"></member>
+    <member name="M:Atalasoft.Annotate.UI.EmbeddedAnnotationDataProvider.PrepareForExtraction(System.String,System.Int32)"></member>
+    <member name="T:Atalasoft.Annotate.UI.IAnnotationDataProvider">
+      <summary> This interface is used to provide <STRONG>LayerData </STRONG>objects for images. </summary>
+    </member>
+    <member name="M:Atalasoft.Annotate.UI.IAnnotationDataProvider.GetLayerData(System.Int32)">
+      <summary> Returns a <STRONG>LayerData</STRONG> object for the specified frame index or <STRONG>null</STRONG>
+            (<STRONG>Nothing</STRONG> in VB) if there are no annotations. </summary>
+      <param name="frameIndex"> The index of the layer to return. </param>
+      <returns> A <STRONG>LayerData</STRONG> for the image or <STRONG>null</STRONG> (<STRONG>Nothing</STRONG> in VB) if
+            there are no annotations. </returns>
+    </member>
+    <member name="M:Atalasoft.Annotate.UI.IAnnotationDataProvider.PrepareForExtraction(Atalasoft.Imaging.AtalaImage)"></member>
+    <member name="M:Atalasoft.Annotate.UI.IAnnotationDataProvider.PrepareForExtraction(Atalasoft.Imaging.RandomAccessImageSource,System.Int32)"></member>
+    <member name="M:Atalasoft.Annotate.UI.IAnnotationDataProvider.PrepareForExtraction(System.IO.Stream,System.Int32)"></member>
+    <member name="M:Atalasoft.Annotate.UI.IAnnotationDataProvider.PrepareForExtraction(System.String,System.Int32)"></member>
+    <member name="T:Atalasoft.Annotate.UI.Exporters.AnnotationExporter">
+      <summary> An abstract base class that encompasses elements for exporting annotations. </summary>
+    </member>
+    <member name="M:Atalasoft.Annotate.UI.Exporters.AnnotationExporter.#ctor">
+      <summary>Initializes a new instance of the <see cref="T:Atalasoft.Annotate.UI.Exporters.AnnotationExporter" /> class</summary>
+    </member>
+    <member name="P:Atalasoft.Annotate.UI.Exporters.AnnotationExporter.CanExport">
+      <summary> Indicates whether or not this AnnotationExporter can do a simple export. </summary>
+    </member>
+    <member name="P:Atalasoft.Annotate.UI.Exporters.AnnotationExporter.CanExportOver">
+      <summary> Indicates whether or not this AnnotationExporter can write annotations to a stream without affecting
+            existing contents. </summary>
+    </member>
+    <member name="M:Atalasoft.Annotate.UI.Exporters.AnnotationExporter.Construct">
+      <summary> A factory method to construct a new AnnotationExporter. </summary>
+      <returns> A new AnnotationExporter object. </returns>
+    </member>
+    <member name="M:Atalasoft.Annotate.UI.Exporters.AnnotationExporter.CopyStream(System.IO.Stream,System.IO.Stream)">
+      <summary> Copies the entire source stream to the destination stream. </summary>
+      <param name="sourceStream"> A non-null stream with annotation source data </param>
+      <param name="destStream"> a non-null stream to which the source data will be copied. </param>
+    </member>
+    <member name="M:Atalasoft.Annotate.UI.Exporters.AnnotationExporter.Export(System.IO.Stream,System.IO.Stream,System.Drawing.SizeF,Atalasoft.Annotate.AnnotationUnit,Atalasoft.Imaging.Dpi,Atalasoft.Annotate.UI.LayerAnnotation,System.Int32)">
+      <summary> Exports a single page of annotations to a given stream. </summary>
+      <param name="sourceStream"> The original source stream for the document. </param>
+      <param name="destStream"> The destination stream for the document. </param>
+      <param name="pageSize"> The size of the source page. </param>
+      <param name="units"> The units in which the page size is expressed. </param>
+      <param name="resolution"> The resolution of the page. </param>
+      <param name="layer"> The page of annotations to export. </param>
+      <param name="frameIndex"> The page number for exporting. </param>
+    </member>
+    <member name="M:Atalasoft.Annotate.UI.Exporters.AnnotationExporter.Export(System.IO.Stream,System.IO.Stream,System.Drawing.SizeF[],Atalasoft.Annotate.AnnotationUnit,Atalasoft.Imaging.Dpi[],Atalasoft.Annotate.UI.LayerCollection)">
+      <summary> Exports a multiple pages of annotations to a given stream. </summary>
+      <param name="sourceStream"> The original source stream for the document. </param>
+      <param name="destStream"> The destination stream for the document. </param>
+      <param name="pageSizes"> An array of sizes of the source pages. </param>
+      <param name="units"> An array of units in which the page sizes are expressed. </param>
+      <param name="resolutions"> An array of resolutions of the pages. </param>
+      <param name="layers"> A collection of pages of annotations. </param>
+    </member>
+    <member name="M:Atalasoft.Annotate.UI.Exporters.AnnotationExporter.ExportOver(System.IO.Stream,System.Drawing.SizeF,Atalasoft.Annotate.AnnotationUnit,Atalasoft.Imaging.Dpi,Atalasoft.Annotate.UI.LayerAnnotation,System.Int32)">
+      <summary> Export a set of annotations over an existing stream. </summary>
+      <param name="destStream"> The destination stream for the document. </param>
+      <param name="pageSize"> The size of the source page. </param>
+      <param name="units"> The units in which the page size is expressed. </param>
+      <param name="resolution"> The resolution of the page. </param>
+      <param name="layer"> The page of annotations to export. </param>
+      <param name="frameIndex"> The page number for exporting. </param>
+    </member>
+    <member name="M:Atalasoft.Annotate.UI.Exporters.AnnotationExporter.ExportOver(System.IO.Stream,System.Drawing.SizeF[],Atalasoft.Annotate.AnnotationUnit,Atalasoft.Imaging.Dpi[],Atalasoft.Annotate.UI.LayerCollection)">
+      <summary> Export a set of annotations over an existing stream. </summary>
+      <param name="destStream"> The destination stream for the document. </param>
+      <param name="pageSizes"> An array of sizes of the source pages. </param>
+      <param name="units"> An array of units in which the page sizes are expressed. </param>
+      <param name="resolutions"> An array of resolutions of the pages. </param>
+      <param name="layers"> A collection of pages of annotations. </param>
+    </member>
+    <member name="M:Atalasoft.Annotate.UI.Exporters.AnnotationExporter.IsValidFormat(System.IO.Stream)">
+      <summary> Determines if the stream is the correct format. </summary>
+      <param name="stm"> A non-null stream </param>
+      <returns> Returns true if the stream contains valid data for this AnnotationExporter, false otherwise. </returns>
+    </member>
+    <member name="M:Atalasoft.Annotate.UI.Exporters.AnnotationExporter.LLExport(System.IO.Stream,System.IO.Stream,System.Drawing.SizeF,Atalasoft.Annotate.AnnotationUnit,Atalasoft.Imaging.Dpi,Atalasoft.Annotate.UI.LayerAnnotation,System.Int32)"></member>
+    <member name="M:Atalasoft.Annotate.UI.Exporters.AnnotationExporter.LLExport(System.IO.Stream,System.IO.Stream,System.Drawing.SizeF[],Atalasoft.Annotate.AnnotationUnit,Atalasoft.Imaging.Dpi[],Atalasoft.Annotate.UI.LayerCollection)"></member>
+    <member name="M:Atalasoft.Annotate.UI.Exporters.AnnotationExporter.LLExportOver(System.IO.Stream,System.Drawing.SizeF,Atalasoft.Annotate.AnnotationUnit,Atalasoft.Imaging.Dpi,Atalasoft.Annotate.UI.LayerAnnotation,System.Int32)"></member>
+    <member name="M:Atalasoft.Annotate.UI.Exporters.AnnotationExporter.LLExportOver(System.IO.Stream,System.Drawing.SizeF[],Atalasoft.Annotate.AnnotationUnit,Atalasoft.Imaging.Dpi[],Atalasoft.Annotate.UI.LayerCollection)"></member>
+    <member name="T:Atalasoft.Annotate.UI.Exporters.PdfAnnotationExporter">
+      <summary> The PdfAnnotationExporter object is capable of taking DotImage Annotation objects and translating them
+            into a format suitable for PDF. </summary>
+    </member>
+    <member name="M:Atalasoft.Annotate.UI.Exporters.PdfAnnotationExporter.#ctor">
+      <summary> Constructs a new PdfAnnotationExporter object. </summary>
+    </member>
+    <member name="P:Atalasoft.Annotate.UI.Exporters.PdfAnnotationExporter.CanExport">
+      <summary> Overridden. Returns false. </summary>
+    </member>
+    <member name="P:Atalasoft.Annotate.UI.Exporters.PdfAnnotationExporter.CanExportOver">
+      <summary> Overridden. Returns true. </summary>
+    </member>
+    <member name="M:Atalasoft.Annotate.UI.Exporters.PdfAnnotationExporter.Construct">
+      <summary> Constructs a new PdfAnnotationExporter. </summary>
+    </member>
+    <member name="M:Atalasoft.Annotate.UI.Exporters.PdfAnnotationExporter.IsValidFormat(System.IO.Stream)">
+      <summary> Determines if a stream contains PDF content. </summary>
+      <param name="stm"> A non-null stream. </param>
+      <returns> Returns true if the stream contains PDF, false otherwise. </returns>
+    </member>
+    <member name="M:Atalasoft.Annotate.UI.Exporters.PdfAnnotationExporter.LLExport(System.IO.Stream,System.IO.Stream,System.Drawing.SizeF,Atalasoft.Annotate.AnnotationUnit,Atalasoft.Imaging.Dpi,Atalasoft.Annotate.UI.LayerAnnotation,System.Int32)"></member>
+    <member name="M:Atalasoft.Annotate.UI.Exporters.PdfAnnotationExporter.LLExport(System.IO.Stream,System.IO.Stream,System.Drawing.SizeF[],Atalasoft.Annotate.AnnotationUnit,Atalasoft.Imaging.Dpi[],Atalasoft.Annotate.UI.LayerCollection)"></member>
+    <member name="M:Atalasoft.Annotate.UI.Exporters.PdfAnnotationExporter.LLExportOver(System.IO.Stream,System.Drawing.SizeF,Atalasoft.Annotate.AnnotationUnit,Atalasoft.Imaging.Dpi,Atalasoft.Annotate.UI.LayerAnnotation,System.Int32)"></member>
+    <member name="M:Atalasoft.Annotate.UI.Exporters.PdfAnnotationExporter.LLExportOver(System.IO.Stream,System.Drawing.SizeF[],Atalasoft.Annotate.AnnotationUnit,Atalasoft.Imaging.Dpi[],Atalasoft.Annotate.UI.LayerCollection)"></member>
+    <member name="T:Atalasoft.Annotate.UI.Importers.AnnotationImporter">
+      <summary>
+        <para>AnnotationImporter is an abstract base class used to define how annotations are imported from
+            arbitrary data files into DotImage.</para>
+        <para>
+          <FONT color="#ff0000">This class is obsolete:  Use <see cref="T:Atalasoft.Annotate.UI.Importers.AnnotationImporter" /> instead.</FONT>
+        </para>
+      </summary>
+    </member>
+    <member name="M:Atalasoft.Annotate.UI.Importers.AnnotationImporter.#ctor">
+      <summary>Initializes a new instance of the <see cref="T:Atalasoft.Annotate.UI.Importers.AnnotationImporter" /> class</summary>
+    </member>
+    <member name="E:Atalasoft.Annotate.UI.Importers.AnnotationImporter.AnnotationImported">
+      <summary> Raised after a single annotation has been imported. </summary>
+    </member>
+    <member name="E:Atalasoft.Annotate.UI.Importers.AnnotationImporter.AnnotationPageImported">
+      <summary> Raised after a page of annotations has been imported. </summary>
+    </member>
+    <member name="E:Atalasoft.Annotate.UI.Importers.AnnotationImporter.AnnotationPageImporting">
+      <summary> Raised before a page of annotations will be imported. </summary>
+    </member>
+    <member name="P:Atalasoft.Annotate.UI.Importers.AnnotationImporter.FailsafeAnnotationFactory">
+      <summary> Gets or sets a delegate that is used to create annotations if an importer is unable to do so. </summary>
+    </member>
+    <member name="M:Atalasoft.Annotate.UI.Importers.AnnotationImporter.FromStream(System.IO.Stream)">
+      <summary> Constructs a new annotation importer associated with a given stream. </summary>
+      <param name="stm"> A non-null stream containing annotation data. </param>
+      <returns> A new annotation importer for importing annotations. </returns>
+    </member>
+    <member name="M:Atalasoft.Annotate.UI.Importers.AnnotationImporter.GetAnnotationCount(System.Int32)">
+      <summary> Returns the number of annotations on a conceptual page of a document. </summary>
+      <param name="page"> page is an integer that represents the conceptual zero based page index of a document.  It will
+            be range checked against the total number of pages in the document. </param>
+    </member>
+    <member name="M:Atalasoft.Annotate.UI.Importers.AnnotationImporter.Import">
+      <summary> Imports all annotations as LayerCollection. </summary>
+      <returns> A new LayerCollection object representing annotations for the entire document.  Each LayerAnnotation
+            within the collection represents one page of annotations.  If a page has no annotations, the LayerAnnotation will be
+            non-null, but empty. </returns>
+    </member>
+    <member name="M:Atalasoft.Annotate.UI.Importers.AnnotationImporter.Import(System.Int32)">
+      <summary> Imports a page of annotations as LayerAnnotation. </summary>
+      <param name="page"> The zero-based page from which annotations will be imported.  page is range checked against the
+            document. </param>
+      <returns> A LayerAnnotation containing a set of annotations from the page. </returns>
+    </member>
+    <member name="M:Atalasoft.Annotate.UI.Importers.AnnotationImporter.Import(System.Int32,System.Int32)">
+      <summary> Imports a single annotation from a given page of annotations. </summary>
+      <param name="page"> The zero-based page from which annotations will be imported.  page is range checked against the
+            document. </param>
+      <param name="annotIndex"> The zero-based annotation which will be imported.  annotIndex is range checked against the
+            number of annotations of the page.  The number of annotations on a page is available through <see cref="M:Atalasoft.Annotate.UI.Importers.AnnotationImporter.GetAnnotationCount(System.Int32)" />. </param>
+      <returns> A single AnnotationUI object representing the imported annotation. </returns>
+    </member>
+    <member name="M:Atalasoft.Annotate.UI.Importers.AnnotationImporter.IsValidFormat(System.IO.Stream)">
+      <summary> Indicates whether or not an AnnotationImporter can recognize a particular data format. </summary>
+      <param name="stm"> A non-null stream used to recognize file format. </param>
+      <returns> true indicates that the AnnotationImporter recognizes this format. </returns>
+    </member>
+    <member name="P:Atalasoft.Annotate.UI.Importers.AnnotationImporter.LastErrors">
+      <summary> Gets a collection of strings representing errors encountered while importing annotations. </summary>
+    </member>
+    <member name="M:Atalasoft.Annotate.UI.Importers.AnnotationImporter.LLGetAnnotationCount(System.Int32)">
+      <summary> Low level implementation of GetAnnotationCount </summary>
+      <param name="page"> A zero-based integer representing the page from which the annotations are being counted.  Page
+            will always be in range. </param>
+      <returns> An integer representing the number of annotations on the page. </returns>
+    </member>
+    <member name="M:Atalasoft.Annotate.UI.Importers.AnnotationImporter.LLGetPageCount">
+      <summary> The low-level implementation of PageCount </summary>
+      <returns> Returns the number of pages in the document. </returns>
+    </member>
+    <member name="M:Atalasoft.Annotate.UI.Importers.AnnotationImporter.LLImport(System.Int32)">
+      <summary> Imports all annotations as LayerCollection. </summary>
+      <param name="page"> The zero-based page from which annotations will be imported.  page is range checked against the
+            document. </param>
+      <returns> A LayerAnnotation containing a set of annotations from the page. </returns>
+    </member>
+    <member name="M:Atalasoft.Annotate.UI.Importers.AnnotationImporter.LLImport(System.Int32,System.Int32)"></member>
+    <member name="M:Atalasoft.Annotate.UI.Importers.AnnotationImporter.LLLoad">
+      <summary> The low-level implementation of Load </summary>
+    </member>
+    <member name="M:Atalasoft.Annotate.UI.Importers.AnnotationImporter.Load">
+      <summary> The load method is used to allow an AnnotationImporter to load and to possibly cache annotations.
+            </summary>
+    </member>
+    <member name="M:Atalasoft.Annotate.UI.Importers.AnnotationImporter.OnAnnotationImported(Atalasoft.Annotate.UI.Importers.AnnotationImportEventArgs)">
+      <summary> Fires the AnnotationImported event. </summary>
+      <param name="e"> The AnnotationImportEventArgs for this event </param>
+    </member>
+    <member name="M:Atalasoft.Annotate.UI.Importers.AnnotationImporter.OnAnnotationPageImported(Atalasoft.Annotate.UI.Importers.AnnotationPageImportEventArgs)">
+      <summary> Fires the AnnotationPageImported event. </summary>
+      <param name="e"> The AnnotationPageImportEventArgs for this event. </param>
+      <returns> The event is fired after a page of annotations has been imported. </returns>
+    </member>
+    <member name="M:Atalasoft.Annotate.UI.Importers.AnnotationImporter.OnAnnotationPageImporting(Atalasoft.Annotate.UI.Importers.AnnotationPageImportEventArgs)">
+      <summary> Fires the AnnotationPageImporting event. </summary>
+      <param name="e"> The AnnotationPageImport events args for this event. </param>
+      <returns> This event is fired before a page of annotations will be imported. </returns>
+    </member>
+    <member name="P:Atalasoft.Annotate.UI.Importers.AnnotationImporter.PageCount">
+      <summary> Returns the total number of pages in a document. </summary>
+    </member>
+    <member name="P:Atalasoft.Annotate.UI.Importers.AnnotationImporter.Resolution">
+      <summary> Sets or gets the resolution of the target for the annotations. </summary>
+    </member>
+    <member name="P:Atalasoft.Annotate.UI.Importers.AnnotationImporter.ThrowOnError">
+      <summary> Gets or sets whether or not the importer will throw or suppress exceptions. </summary>
+    </member>
+    <member name="P:Atalasoft.Annotate.UI.Importers.AnnotationImporter.Units">
+      <summary> Sets or gets the units of the target for the annotations. </summary>
+    </member>
+    <member name="T:Atalasoft.Annotate.UI.Importers.AnnotationImporterCollection">
+      <summary> This is a collection used to contain a set of AnnotationImporter objects. </summary>
+    </member>
+    <member name="M:Atalasoft.Annotate.UI.Importers.AnnotationImporterCollection.#ctor">
+      <summary> Constructs a new AnnotationImporterCollection. </summary>
+    </member>
+    <member name="M:Atalasoft.Annotate.UI.Importers.AnnotationImporterCollection.Add(Atalasoft.Annotate.UI.Importers.AnnotationImporter)">
+      <summary> Adds an AnnotationImporter to the end of the collection. </summary>
+      <param name="value"> The AnnotationImporter to add. </param>
+    </member>
+    <member name="M:Atalasoft.Annotate.UI.Importers.AnnotationImporterCollection.Contains(Atalasoft.Annotate.UI.Importers.AnnotationImporter)">
+      <summary> Returns true if the collection contains a given AnnotationImporter. </summary>
+      <param name="value"> The AnnotationImported that to search for. </param>
+    </member>
+    <member name="M:Atalasoft.Annotate.UI.Importers.AnnotationImporterCollection.CopyTo(Atalasoft.Annotate.UI.Importers.AnnotationImporter[],System.Int32)">
+      <summary> Copies the entire contents of the collection to an array. </summary>
+      <param name="array"> The array that will be used for copying. </param>
+      <param name="index"> The start of the array. </param>
+    </member>
+    <member name="M:Atalasoft.Annotate.UI.Importers.AnnotationImporterCollection.IndexOf(Atalasoft.Annotate.UI.Importers.AnnotationImporter)">
+      <summary> Finds the index of a given AnnotationImporter within the collection. </summary>
+      <param name="value"> The AnnotationImporter to find. </param>
+      <returns> A value 0 or greater if the AnnotationImporter was found, less than zero if not. </returns>
+    </member>
+    <member name="M:Atalasoft.Annotate.UI.Importers.AnnotationImporterCollection.Insert(System.Int32,Atalasoft.Annotate.UI.Importers.AnnotationImporter)">
+      <summary> Inserts an AnnotationImporter into the collection. </summary>
+      <param name="index"> The index before which the AnnotationImporter will be inserted. </param>
+      <param name="value"> The AnnotationImporter to insert. </param>
+    </member>
+    <member name="P:Atalasoft.Annotate.UI.Importers.AnnotationImporterCollection.Item(System.Int32)"></member>
+    <member name="M:Atalasoft.Annotate.UI.Importers.AnnotationImporterCollection.Remove(Atalasoft.Annotate.UI.Importers.AnnotationImporter)">
+      <summary> Removes an AnnotationImporter from the colection. </summary>
+      <param name="value"> The AnnotationImporter to remove. </param>
+    </member>
+    <member name="T:Atalasoft.Annotate.UI.Importers.AnnotationImporterFactory">
+      <summary> A delegate for constructing annotations from data that a given AnnotationImporter doesn't understand.
+            </summary>
+      <param name="importer"> The AnnotationImporter that attempted to import the annotation </param>
+      <param name="location"> The location on the target page where the annotation will go </param>
+      <param name="data"> The data used to construct the annotation. </param>
+      <returns> A new AnnotationUI object or null.  If the delegate returns null, this annotation is ignored. </returns>
+    </member>
+    <member name="T:Atalasoft.Annotate.UI.Importers.AnnotationImportEventArgs">
+      <summary> An object representing information about an annotation being imported. </summary>
+    </member>
+    <member name="M:Atalasoft.Annotate.UI.Importers.AnnotationImportEventArgs.#ctor(Atalasoft.Annotate.UI.Importers.AnnotationImporter,Atalasoft.Annotate.UI.AnnotationUI,System.Int32,System.Int32)">
+      <summary> Constructs a new AnnotationImportEventArgs object. </summary>
+      <param name="importer"> The AnnotationImporter that has imported the annotation. </param>
+      <param name="annotation"> The AnnotationUI object that was imported. </param>
+      <param name="page"> The page from which the AnnotationUI object was imported. </param>
+      <param name="annotIndex"> The index on the page of the AnnotationUI object. </param>
+    </member>
+    <member name="P:Atalasoft.Annotate.UI.Importers.AnnotationImportEventArgs.Annotation">
+      <summary> Gets the AnnotationImporter that has imported the annotation. </summary>
+    </member>
+    <member name="P:Atalasoft.Annotate.UI.Importers.AnnotationImportEventArgs.AnnotationIndex">
+      <summary> Gets the index on the page of the AnnotationUI object. </summary>
+    </member>
+    <member name="P:Atalasoft.Annotate.UI.Importers.AnnotationImportEventArgs.Importer">
+      <summary> Gets the index on the page of the AnnotationUI object. </summary>
+    </member>
+    <member name="P:Atalasoft.Annotate.UI.Importers.AnnotationImportEventArgs.Page">
+      <summary> Gets the index on the page of the AnnotationUI object. </summary>
+    </member>
+    <member name="T:Atalasoft.Annotate.UI.Importers.AnnotationImportEventHandler"></member>
+    <member name="T:Atalasoft.Annotate.UI.Importers.AnnotationPageImportEventArgs">
+      <summary> An object representing information about a page of annotations being imported. </summary>
+    </member>
+    <member name="M:Atalasoft.Annotate.UI.Importers.AnnotationPageImportEventArgs.#ctor(Atalasoft.Annotate.UI.Importers.AnnotationImporter,Atalasoft.Annotate.UI.LayerAnnotation,System.Int32)">
+      <summary> Constructs a new AnnotationPageImportEventArgs object. </summary>
+      <param name="importer"> The AnnotationImporter importing the page. </param>
+      <param name="layer"> The layer of annotations imported. </param>
+      <param name="page"> The page number of the annotations being imported. </param>
+    </member>
+    <member name="P:Atalasoft.Annotate.UI.Importers.AnnotationPageImportEventArgs.Importer">
+      <summary> Gets the AnnotationImporter importing the page. </summary>
+    </member>
+    <member name="P:Atalasoft.Annotate.UI.Importers.AnnotationPageImportEventArgs.Layer">
+      <summary> Gets the layer of annotations imported. </summary>
+    </member>
+    <member name="P:Atalasoft.Annotate.UI.Importers.AnnotationPageImportEventArgs.Page">
+      <summary> Gets the page number of the annotations being imported. </summary>
+    </member>
+    <member name="T:Atalasoft.Annotate.UI.Importers.AnnotationPageImportEventHandler"></member>
+    <member name="T:Atalasoft.Annotate.UI.Importers.PdfAnnotationImporter">
+      <summary>
+        <para>Constructs a new PdfAnnotationImporter object.</para>
+        <para>This class is obsolete:  Use <see cref="T:Atalasoft.Annotate.Importers.PdfAnnotationDataImporter" /> instead.</para>
+      </summary>
+    </member>
+    <member name="M:Atalasoft.Annotate.UI.Importers.PdfAnnotationImporter.#ctor">
+      <summary>Initializes a new instance of the <see cref="T:Atalasoft.Annotate.UI.Importers.PdfAnnotationImporter" /> class</summary>
+    </member>
+    <member name="M:Atalasoft.Annotate.UI.Importers.PdfAnnotationImporter.#ctor(System.IO.Stream)">
+      <summary> Constructs a new PdfAnnotationImporterObject for the given stream. </summary>
+      <param name="stm"> A non-null stream containing a PDF document. </param>
+    </member>
+    <member name="P:Atalasoft.Annotate.UI.Importers.PdfAnnotationImporter.Factories"></member>
+    <member name="M:Atalasoft.Annotate.UI.Importers.PdfAnnotationImporter.FromStream(System.IO.Stream)">
+      <summary> Returns a new PdfAnnotationImporter object attached to the given Stream. </summary>
+      <param name="stm"> A non-null stream containing a PDF document. </param>
+      <exception> Thrown if the stm argument is null (Nothing in VB). </exception>
+      <exception> Thrown if the stream is not seekable. </exception>
+    </member>
+    <member name="M:Atalasoft.Annotate.UI.Importers.PdfAnnotationImporter.Import(System.Int32)">
+      <summary> Imports a page of annotations as LayerAnnotation. </summary>
+      <param name="pageNo"> The zero-based page from which annotations will be imported.  page is range checked against
+            the document. </param>
+      <returns> A LayerAnnotation containing a set of annotations from the page. </returns>
+    </member>
+    <member name="M:Atalasoft.Annotate.UI.Importers.PdfAnnotationImporter.IsValidFormat(System.IO.Stream)">
+      <summary> Indicates whether or not the stream is a PDF. </summary>
+      <param name="stm"> A non-null stream. </param>
+    </member>
+    <member name="M:Atalasoft.Annotate.UI.Importers.PdfAnnotationImporter.LLGetAnnotationCount(System.Int32)"></member>
+    <member name="M:Atalasoft.Annotate.UI.Importers.PdfAnnotationImporter.LLGetPageCount"></member>
+    <member name="M:Atalasoft.Annotate.UI.Importers.PdfAnnotationImporter.LLImport(System.Int32,System.Int32)"></member>
+    <member name="M:Atalasoft.Annotate.UI.Importers.PdfAnnotationImporter.LLLoad"></member>
+    <member name="T:Atalasoft.Annotate.UI.Importers.XmpAnnotationImporter">
+      <summary>
+            Summary description for XmpImporter.
+            </summary>
+    </member>
+    <member name="M:Atalasoft.Annotate.UI.Importers.XmpAnnotationImporter.#ctor(Atalasoft.Annotate.UI.AnnotationController)">
+      <summary> Constructs a new XmpAnnotationImporter object. </summary>
+      <param name="controller"> A hosting AnnotationController object. </param>
+    </member>
+    <member name="M:Atalasoft.Annotate.UI.Importers.XmpAnnotationImporter.#ctor(Atalasoft.Annotate.UI.AnnotationController,System.IO.Stream)">
+      <summary> Constructs a new XmpAnnotationImporter object. </summary>
+      <param name="controller"> A hosting AnnotationController object. </param>
+      <param name="stm"> A stream from which annotations will be imported. </param>
+    </member>
+    <member name="M:Atalasoft.Annotate.UI.Importers.XmpAnnotationImporter.FromStream(System.IO.Stream)">
+      <summary> Constructs a new XmpAnnotationImporter for the given stream. </summary>
+      <param name="stm"> A non-null stream containing XMP data. </param>
+    </member>
+    <member name="M:Atalasoft.Annotate.UI.Importers.XmpAnnotationImporter.IsValidFormat(System.IO.Stream)">
+      <summary> Indicates if the stream contains XMP data. </summary>
+      <param name="stm"> A non-null stream containing XMP data. </param>
+      <returns> Returns true if the stream contains XMP data; false otherwise. </returns>
+    </member>
+    <member name="M:Atalasoft.Annotate.UI.Importers.XmpAnnotationImporter.LLGetAnnotationCount(System.Int32)"></member>
+    <member name="M:Atalasoft.Annotate.UI.Importers.XmpAnnotationImporter.LLGetPageCount"></member>
+    <member name="M:Atalasoft.Annotate.UI.Importers.XmpAnnotationImporter.LLImport(System.Int32)"></member>
+    <member name="M:Atalasoft.Annotate.UI.Importers.XmpAnnotationImporter.LLImport(System.Int32,System.Int32)"></member>
+    <member name="M:Atalasoft.Annotate.UI.Importers.XmpAnnotationImporter.LLLoad"></member>
+  </members>
+</doc>

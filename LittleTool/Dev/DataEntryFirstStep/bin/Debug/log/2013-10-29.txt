@@ -1,0 +1,7 @@
+2013-10-29 11:41:28.5479|INFO|DataEntryFirstStep.DataEntryForm|*****************************************************************
+2013-10-29 11:41:28.5789|INFO|DataEntryFirstStep.DataEntryForm|继续上次batch
+2013-10-29 11:41:28.5819|INFO|DataEntryFirstStep.DataEntryForm|*****************************************************************
+2013-10-29 11:41:30.3150|INFO|DataEntryFirstStep.DataEntryForm|*****************************************************************
+2013-10-29 11:41:30.3150|INFO|DataEntryFirstStep.DataEntryForm|打开一个新batch
+2013-10-29 11:41:30.3150|INFO|DataEntryFirstStep.DataEntryForm|*****************************************************************
+2013-10-29 11:41:30.3150|INFO|DataEntryFirstStep.DataEntryForm|总页数:	90

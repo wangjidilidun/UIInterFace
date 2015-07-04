@@ -1,0 +1,17 @@
+2013-10-29 11:50:32.2660|INFO|DataEntryFirstStep.DataEntryForm|*****************************************************************
+2013-10-29 11:50:32.2810|INFO|DataEntryFirstStep.DataEntryForm|打开一个新batch
+2013-10-29 11:50:32.2810|INFO|DataEntryFirstStep.DataEntryForm|*****************************************************************
+2013-10-29 11:50:32.5380|INFO|DataEntryFirstStep.DataEntryForm|总页数:	90
+2013-10-29 11:50:45.4917|INFO|DataEntryFirstStep.DataEntryForm|00_20121119_0012_000056000294.jpg该图像花费时间:	12.9527409
+2013-10-29 11:50:45.4917|INFO|DataEntryFirstStep.DataEntryForm|00_20121119_0012_000056000294.jpg总字符数:	143
+2013-10-29 11:50:47.3919|INFO|DataEntryFirstStep.DataEntryForm|00_20121119_0012_000056000295.jpg该图像花费时间:	1.8921082
+2013-10-29 11:50:47.3919|INFO|DataEntryFirstStep.DataEntryForm|00_20121119_0012_000056000295.jpg总字符数:	164
+2013-10-29 11:50:49.4120|INFO|DataEntryFirstStep.DataEntryForm|00_20121119_0012_000056000294.jpg该图像花费时间:	2.0141152
+2013-10-29 11:50:49.4120|INFO|DataEntryFirstStep.DataEntryForm|00_20121119_0012_000056000294.jpg总字符数:	143
+2013-10-29 11:51:28.1202|INFO|DataEntryFirstStep.DataEntryForm|*****************************************************************
+2013-10-29 11:51:28.1422|INFO|DataEntryFirstStep.DataEntryForm|继续上次batch
+2013-10-29 11:51:28.1422|INFO|DataEntryFirstStep.DataEntryForm|*****************************************************************
+2013-10-29 11:51:29.6413|INFO|DataEntryFirstStep.DataEntryForm|*****************************************************************
+2013-10-29 11:51:29.6413|INFO|DataEntryFirstStep.DataEntryForm|打开一个新batch
+2013-10-29 11:51:29.6413|INFO|DataEntryFirstStep.DataEntryForm|*****************************************************************
+2013-10-29 11:51:29.6413|INFO|DataEntryFirstStep.DataEntryForm|总页数:	90

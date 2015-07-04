@@ -1,0 +1,10 @@
+E:\Projects\Italian\TestSVN\6\Utility\bin\Release\Utility.dll
+E:\Projects\Italian\TestSVN\6\Utility\bin\Release\Utility.pdb
+E:\Projects\Italian\TestSVN\6\Utility\obj\Release\ResolveAssemblyReference.cache
+E:\Projects\Italian\TestSVN\6\Utility\obj\Release\Utility.dll
+E:\Projects\Italian\TestSVN\6\Utility\obj\Release\Utility.pdb
+E:\Projects\2013\Italian\TestSVN\6\Utility\bin\Release\Utility.dll
+E:\Projects\2013\Italian\TestSVN\6\Utility\bin\Release\Utility.pdb
+E:\Projects\2013\Italian\TestSVN\6\Utility\obj\Release\ResolveAssemblyReference.cache
+E:\Projects\2013\Italian\TestSVN\6\Utility\obj\Release\Utility.dll
+E:\Projects\2013\Italian\TestSVN\6\Utility\obj\Release\Utility.pdb

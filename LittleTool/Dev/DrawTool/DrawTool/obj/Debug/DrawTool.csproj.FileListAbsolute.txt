@@ -1,0 +1,9 @@
+E:\School_Materials\LittleTool\DrawTool\DrawTool\bin\Debug\DrawTool.exe.config
+E:\School_Materials\LittleTool\DrawTool\DrawTool\bin\Debug\DrawTool.exe
+E:\School_Materials\LittleTool\DrawTool\DrawTool\bin\Debug\DrawTool.pdb
+E:\School_Materials\LittleTool\DrawTool\DrawTool\obj\Debug\DrawTool.csprojResolveAssemblyReference.cache
+E:\School_Materials\LittleTool\DrawTool\DrawTool\obj\Debug\DrawTool.Form1.resources
+E:\School_Materials\LittleTool\DrawTool\DrawTool\obj\Debug\DrawTool.Properties.Resources.resources
+E:\School_Materials\LittleTool\DrawTool\DrawTool\obj\Debug\DrawTool.csproj.GenerateResource.Cache
+E:\School_Materials\LittleTool\DrawTool\DrawTool\obj\Debug\DrawTool.exe
+E:\School_Materials\LittleTool\DrawTool\DrawTool\obj\Debug\DrawTool.pdb

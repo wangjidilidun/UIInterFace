@@ -1,0 +1,12 @@
+2013-10-23 14:22:15.3975|INFO|DataEntryFirstStep.DataEntryForm|*****************************************************************
+2013-10-23 14:22:15.4155|INFO|DataEntryFirstStep.DataEntryForm|打开一个新batch
+2013-10-23 14:22:15.4155|INFO|DataEntryFirstStep.DataEntryForm|*****************************************************************
+2013-10-23 14:22:15.4155|INFO|DataEntryFirstStep.DataEntryForm|总页数:	0
+2013-10-23 14:22:45.3092|INFO|DataEntryFirstStep.DataEntryForm|*****************************************************************
+2013-10-23 14:22:45.3262|INFO|DataEntryFirstStep.DataEntryForm|打开一个新batch
+2013-10-23 14:22:45.3262|INFO|DataEntryFirstStep.DataEntryForm|*****************************************************************
+2013-10-23 14:22:45.5592|INFO|DataEntryFirstStep.DataEntryForm|总页数:	182
+2013-10-23 14:22:52.3406|INFO|DataEntryFirstStep.DataEntryForm|00_20130114_0001_000001000002.tif该图像花费时间:	6.7803878
+2013-10-23 14:22:52.3406|INFO|DataEntryFirstStep.DataEntryForm|00_20130114_0001_000001000002.tif总字符数:	0
+2013-10-23 14:22:53.9087|INFO|DataEntryFirstStep.DataEntryForm|00_20130114_0001_000001000004.tif该图像花费时间:	1.5610893
+2013-10-23 14:22:53.9087|INFO|DataEntryFirstStep.DataEntryForm|00_20130114_0001_000001000004.tif总字符数:	0
